@@ -12,14 +12,14 @@ const users = [
   {
     name: "Cashier One",
     email: "cashier1@university.edu",
-    password: "Cashier@1234",
+    password: "Cashier1@1234",
     role: "cashier",
     student_id: null,
   },
   {
     name: "Cashier Two",
     email: "cashier2@university.edu",
-    password: "Cashier@1234",
+    password: "Cashier2@5678",
     role: "cashier",
     student_id: null,
   },
@@ -33,14 +33,14 @@ const users = [
   {
     name: "Student One",
     email: "student1@university.edu",
-    password: "Student@1234",
+    password: "Student1@1234",
     role: "student",
     student_id: "STU-2024-001",
   },
   {
     name: "Student Two",
     email: "student2@university.edu",
-    password: "Student@1234",
+    password: "Student2@5678",
     role: "student",
     student_id: "STU-2024-002",
   },
