@@ -1,0 +1,4754 @@
+{
+  "generatedAt": "2026-07-07T04:02:17.859Z",
+  "tables": {
+    "orders": [
+      {
+        "id": "671fc6bc-8cdf-4f1a-a180-cd9ea2b9b6eb",
+        "order_number": "CF-2026-0001",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "380.00",
+        "discount_amount": "0.00",
+        "tax_amount": "19.00",
+        "total_amount": "399.00",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-03T11:26:11.249Z",
+        "updated_at": "2026-07-03T11:39:20.162Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "f61dda54-93aa-41d6-8d3a-9ed028fb11f2",
+        "order_number": "CF-2026-0002",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "470.00",
+        "discount_amount": "0.00",
+        "tax_amount": "23.50",
+        "total_amount": "493.50",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-03T13:00:57.815Z",
+        "updated_at": "2026-07-03T19:58:02.957Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "0090027a-0c79-4925-a427-e532cfce98ee",
+        "order_number": "CF-2026-0003",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "620.00",
+        "discount_amount": "62.00",
+        "tax_amount": "27.90",
+        "total_amount": "585.90",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-03T16:42:46.129Z",
+        "updated_at": "2026-07-03T16:43:17.707Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "1213a446-67cb-47f8-b50d-8ba8b3262bec",
+        "order_number": "CF-2026-0004",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "0.00",
+        "tax_amount": "7.00",
+        "total_amount": "147.00",
+        "payment_method": "qr_upi",
+        "notes": null,
+        "created_at": "2026-07-03T16:59:22.184Z",
+        "updated_at": "2026-07-03T19:58:19.512Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "0f84badb-6e0f-4665-87ea-0dde5ddc20b5",
+        "order_number": "CF-2026-0005",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "210.00",
+        "discount_amount": "0.00",
+        "tax_amount": "10.50",
+        "total_amount": "220.50",
+        "payment_method": "qr_upi",
+        "notes": null,
+        "created_at": "2026-07-03T17:07:52.702Z",
+        "updated_at": "2026-07-04T07:38:58.234Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "0ea51190-e07e-4b5e-ae03-1528be75afc9",
+        "order_number": "CF-2026-0006",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "50.00",
+        "discount_amount": "0.00",
+        "tax_amount": "2.50",
+        "total_amount": "52.50",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-03T17:14:01.658Z",
+        "updated_at": "2026-07-04T10:16:30.998Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "7c8a823c-0118-493e-919b-f69005ac96ab",
+        "order_number": "CF-2026-0007",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "310.00",
+        "discount_amount": "0.00",
+        "tax_amount": "15.50",
+        "total_amount": "325.50",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-03T19:15:48.588Z",
+        "updated_at": "2026-07-04T10:23:03.209Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "94e86460-b67d-4bd2-89ec-945e32dade2b",
+        "order_number": "CF-2026-0008",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "0.00",
+        "tax_amount": "7.00",
+        "total_amount": "147.00",
+        "payment_method": "qr_upi",
+        "notes": null,
+        "created_at": "2026-07-03T19:41:05.513Z",
+        "updated_at": "2026-07-04T10:16:39.934Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "6f27cb57-1f13-42e2-bb78-2cf8bd9db610",
+        "order_number": "CF-2026-0009",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "345.00",
+        "discount_amount": "34.50",
+        "tax_amount": "15.53",
+        "total_amount": "326.03",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-03T20:05:15.722Z",
+        "updated_at": "2026-07-04T10:23:41.042Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "4c42bee7-dcf3-4213-a213-9182dc8a189c",
+        "order_number": "CF-2026-0010",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "360.00",
+        "discount_amount": "0.00",
+        "tax_amount": "18.00",
+        "total_amount": "378.00",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-03T20:06:22.078Z",
+        "updated_at": "2026-07-04T10:23:34.272Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "29defb6e-d825-4db3-baf3-a794c306bb0f",
+        "order_number": "CF-2026-0011",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "500.00",
+        "discount_amount": "0.00",
+        "tax_amount": "25.00",
+        "total_amount": "525.00",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-03T20:26:56.035Z",
+        "updated_at": "2026-07-04T10:23:46.727Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "40327821-4dfe-4ec0-bb12-5e182846331b",
+        "order_number": "CF-2026-0012",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "cancelled",
+        "subtotal": "450.00",
+        "discount_amount": "45.00",
+        "tax_amount": "20.25",
+        "total_amount": "425.25",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-03T20:44:09.901Z",
+        "updated_at": "2026-07-04T07:57:37.664Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "2593d295-dd19-4482-9a82-1dda30e79239",
+        "order_number": "CF-2026-0013",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "450.00",
+        "discount_amount": "45.00",
+        "tax_amount": "20.25",
+        "total_amount": "425.25",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-03T20:44:27.112Z",
+        "updated_at": "2026-07-04T10:23:43.655Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "9d939d98-d496-4fd1-aa27-9929a14bb0d3",
+        "order_number": "CF-2026-0014",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "450.00",
+        "discount_amount": "45.00",
+        "tax_amount": "20.25",
+        "total_amount": "425.25",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-03T20:44:32.179Z",
+        "updated_at": "2026-07-05T07:41:25.464Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "145411d1-5248-45c7-92f1-080a1171be80",
+        "order_number": "CF-2026-0015",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "255.00",
+        "discount_amount": "0.00",
+        "tax_amount": "12.75",
+        "total_amount": "267.75",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-03T20:45:37.244Z",
+        "updated_at": "2026-07-05T08:01:21.131Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "48505858-7227-465f-8a5d-3e4b6db9e0dc",
+        "order_number": "CF-2026-0016",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "cancelled",
+        "subtotal": "255.00",
+        "discount_amount": "25.50",
+        "tax_amount": "11.48",
+        "total_amount": "240.98",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-04T05:12:14.729Z",
+        "updated_at": "2026-07-04T07:57:54.804Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "ac70cdbf-7479-40c9-9fb8-6455efa6f516",
+        "order_number": "CF-2026-0017",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "255.00",
+        "discount_amount": "25.50",
+        "tax_amount": "11.48",
+        "total_amount": "240.98",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-04T05:12:25.318Z",
+        "updated_at": "2026-07-04T11:23:17.738Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "e2bac861-7486-4026-a6aa-906a46809296",
+        "order_number": "CF-2026-0018",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "255.00",
+        "discount_amount": "25.50",
+        "tax_amount": "11.48",
+        "total_amount": "240.98",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-04T05:20:41.966Z",
+        "updated_at": "2026-07-05T08:01:23.083Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "3d475bb3-1842-4a49-8712-bc779de2a5ea",
+        "order_number": "CF-2026-0019",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "120.00",
+        "discount_amount": "12.00",
+        "tax_amount": "5.40",
+        "total_amount": "113.40",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T05:26:05.991Z",
+        "updated_at": "2026-07-04T10:23:37.002Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "716f4d13-9b5d-4a48-8796-172a70af8b16",
+        "order_number": "CF-2026-0020",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "110.00",
+        "discount_amount": "11.00",
+        "tax_amount": "4.95",
+        "total_amount": "103.95",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T05:28:11.793Z",
+        "updated_at": "2026-07-04T11:23:15.382Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "fff6a1e7-8813-4224-8848-111415f6fc89",
+        "order_number": "CF-2026-0021",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "400.00",
+        "discount_amount": "40.00",
+        "tax_amount": "18.00",
+        "total_amount": "378.00",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T05:30:36.712Z",
+        "updated_at": "2026-07-04T11:23:20.516Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "a194e212-b8a5-4081-8247-eaacd9dc77c8",
+        "order_number": "CF-2026-0022",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "80.00",
+        "discount_amount": "8.00",
+        "tax_amount": "3.60",
+        "total_amount": "75.60",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T05:32:58.062Z",
+        "updated_at": "2026-07-04T11:23:23.030Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "163fd101-831d-46c7-9e21-a5800d2f8822",
+        "order_number": "CF-2026-0023",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "250.00",
+        "discount_amount": "25.00",
+        "tax_amount": "11.25",
+        "total_amount": "236.25",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T05:44:24.633Z",
+        "updated_at": "2026-07-04T11:32:05.936Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "318663c7-2d86-407a-bae4-73f08f972926",
+        "order_number": "CF-2026-0024",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "14.00",
+        "tax_amount": "6.30",
+        "total_amount": "132.30",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-04T05:53:31.418Z",
+        "updated_at": "2026-07-05T08:01:52.113Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "0b9dacfd-b992-4fa9-b36b-fe875576bb19",
+        "order_number": "CF-2026-0025",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "14.00",
+        "tax_amount": "6.30",
+        "total_amount": "132.30",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-04T05:54:38.165Z",
+        "updated_at": "2026-07-05T08:01:27.214Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "26f12866-ead1-4ab4-9751-d851e9444975",
+        "order_number": "CF-2026-0026",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "14.00",
+        "tax_amount": "6.30",
+        "total_amount": "132.30",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-04T06:00:50.781Z",
+        "updated_at": "2026-07-05T08:01:52.761Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "580c2494-3050-4ffe-b683-348fccc17db1",
+        "order_number": "CF-2026-0027",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "14.00",
+        "tax_amount": "6.30",
+        "total_amount": "132.30",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-04T06:01:00.050Z",
+        "updated_at": "2026-07-04T11:31:59.349Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "32c501a2-8c6a-4d2d-8cca-1a77a676646a",
+        "order_number": "CF-2026-0028",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "14.00",
+        "tax_amount": "6.30",
+        "total_amount": "132.30",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-04T06:01:10.338Z",
+        "updated_at": "2026-07-04T11:32:08.743Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "d4d57c2b-c31e-45c1-b359-0a2948a41c41",
+        "order_number": "CF-2026-0029",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "14.00",
+        "tax_amount": "6.30",
+        "total_amount": "132.30",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-04T06:04:12.293Z",
+        "updated_at": "2026-07-04T11:32:01.980Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "f1b0e5c7-f24c-44af-ae96-e41e95290664",
+        "order_number": "CF-2026-0030",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "14.00",
+        "tax_amount": "6.30",
+        "total_amount": "132.30",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T06:21:42.134Z",
+        "updated_at": "2026-07-04T07:36:19.460Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "774cbdbd-27dc-463c-a04d-92f95968d8fe",
+        "order_number": "CF-2026-0031",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "375.00",
+        "discount_amount": "37.50",
+        "tax_amount": "16.88",
+        "total_amount": "354.38",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T06:48:34.004Z",
+        "updated_at": "2026-07-04T11:36:12.426Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "c9818f3e-4881-459a-bf68-882227b6a302",
+        "order_number": "CF-2026-0032",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "510.00",
+        "discount_amount": "51.00",
+        "tax_amount": "22.95",
+        "total_amount": "481.95",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T06:55:20.671Z",
+        "updated_at": "2026-07-04T11:32:11.460Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "a11e9865-5b0b-4ce0-9cf6-1732785fb893",
+        "order_number": "CF-2026-0033",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "190.00",
+        "discount_amount": "19.00",
+        "tax_amount": "8.55",
+        "total_amount": "179.55",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-04T06:56:30.612Z",
+        "updated_at": "2026-07-05T08:01:53.988Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "7052a54a-0d41-4733-be5e-2b793c374f18",
+        "order_number": "CF-2026-0034",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "90.00",
+        "discount_amount": "9.00",
+        "tax_amount": "4.05",
+        "total_amount": "85.05",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-04T07:03:14.848Z",
+        "updated_at": "2026-07-04T11:32:13.141Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "9dd0b615-67c5-4bd7-aa52-486aca8f5f55",
+        "order_number": "CF-2026-0035",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "110.00",
+        "discount_amount": "11.00",
+        "tax_amount": "4.95",
+        "total_amount": "103.95",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-04T07:16:56.449Z",
+        "updated_at": "2026-07-04T11:36:13.451Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "045d7146-a30f-4af4-b409-f27410d5688a",
+        "order_number": "CF-2026-0036",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "110.00",
+        "discount_amount": "11.00",
+        "tax_amount": "4.95",
+        "total_amount": "103.95",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T07:26:28.729Z",
+        "updated_at": "2026-07-05T08:01:54.543Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "219a98d8-be53-4ee0-9b12-084b9f8a67a4",
+        "order_number": "CF-2026-0037",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "160.00",
+        "discount_amount": "16.00",
+        "tax_amount": "7.20",
+        "total_amount": "151.20",
+        "payment_method": "card",
+        "notes": "allergies",
+        "created_at": "2026-07-04T07:40:37.217Z",
+        "updated_at": "2026-07-04T10:23:49.242Z",
+        "shift_id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331"
+      },
+      {
+        "id": "3df2208d-50e3-419b-8987-a3cdc9ba305d",
+        "order_number": "CF-2026-0038",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "490.00",
+        "discount_amount": "49.00",
+        "tax_amount": "22.05",
+        "total_amount": "463.05",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T08:04:31.511Z",
+        "updated_at": "2026-07-05T08:01:55.369Z",
+        "shift_id": "92b64137-e0fc-49db-bf91-a65d99255969"
+      },
+      {
+        "id": "992fae12-a280-45f4-aa56-be29a1aac964",
+        "order_number": "CF-2026-0039",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "120.00",
+        "discount_amount": "12.00",
+        "tax_amount": "5.40",
+        "total_amount": "113.40",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T10:04:49.340Z",
+        "updated_at": "2026-07-05T08:01:56.461Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "7e3d71b7-12cd-4f49-957b-231f0e1fe085",
+        "order_number": "CF-2026-0040",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "115.00",
+        "discount_amount": "11.50",
+        "tax_amount": "5.18",
+        "total_amount": "108.68",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-04T10:32:18.239Z",
+        "updated_at": "2026-07-05T08:01:57.332Z",
+        "shift_id": "32b7c23f-a85b-4334-b6bf-61ec003e3603"
+      },
+      {
+        "id": "9b9bd839-cd17-445f-9230-074f3c8b88c8",
+        "order_number": "CF-2026-0041",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "200.00",
+        "discount_amount": "20.00",
+        "tax_amount": "9.00",
+        "total_amount": "189.00",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-04T10:45:18.003Z",
+        "updated_at": "2026-07-05T08:02:21.475Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "9733bee1-78ac-4b29-b059-b171881847ba",
+        "order_number": "CF-2026-0042",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "600.00",
+        "discount_amount": "0.00",
+        "tax_amount": "30.00",
+        "total_amount": "630.00",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T10:46:06.993Z",
+        "updated_at": "2026-07-05T08:03:37.299Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "6e890c68-a69f-4018-a4f6-0d211ffb2ec0",
+        "order_number": "CF-2026-0043",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "300.00",
+        "discount_amount": "0.00",
+        "tax_amount": "15.00",
+        "total_amount": "315.00",
+        "payment_method": "qr_upi",
+        "notes": null,
+        "created_at": "2026-07-04T11:51:15.995Z",
+        "updated_at": "2026-07-05T08:03:38.978Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "f05eedc1-fa52-4764-9014-2f4db8cb7e26",
+        "order_number": "CF-2026-0044",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "115.00",
+        "discount_amount": "0.00",
+        "tax_amount": "5.75",
+        "total_amount": "120.75",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T11:52:15.054Z",
+        "updated_at": "2026-07-05T08:03:41.369Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "e0ad6328-2b67-47f2-bcd5-972452a273ad",
+        "order_number": "CF-2026-0045",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "220.00",
+        "discount_amount": "0.00",
+        "tax_amount": "11.00",
+        "total_amount": "231.00",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T11:52:43.217Z",
+        "updated_at": "2026-07-05T08:03:42.523Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "f8561a6b-1a8b-4644-a0eb-e1ad5917e727",
+        "order_number": "CF-2026-0046",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "110.00",
+        "discount_amount": "11.00",
+        "tax_amount": "4.95",
+        "total_amount": "103.95",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T12:00:49.490Z",
+        "updated_at": "2026-07-05T08:03:34.067Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "73a11593-abde-4f92-b9e4-e963bd27170f",
+        "order_number": "CF-2026-0047",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "115.00",
+        "discount_amount": "11.50",
+        "tax_amount": "5.18",
+        "total_amount": "108.68",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T12:01:52.487Z",
+        "updated_at": "2026-07-05T08:03:44.642Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "0c73ffbd-2cad-4361-a99e-157e0900b47c",
+        "order_number": "CF-2026-0048",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "315.00",
+        "discount_amount": "0.00",
+        "tax_amount": "15.75",
+        "total_amount": "330.75",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T12:03:25.888Z",
+        "updated_at": "2026-07-05T12:27:50.363Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "1852f44a-9484-4c3c-bc4a-503e7a2d8ea9",
+        "order_number": "CF-2026-0049",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "140.00",
+        "discount_amount": "14.00",
+        "tax_amount": "6.30",
+        "total_amount": "132.30",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T12:43:23.485Z",
+        "updated_at": "2026-07-05T08:03:46.034Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "8d5f684e-22f2-4483-9f3a-487371055b07",
+        "order_number": "CF-2026-0050",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "220.00",
+        "discount_amount": "22.00",
+        "tax_amount": "9.90",
+        "total_amount": "207.90",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T12:43:55.272Z",
+        "updated_at": "2026-07-05T08:03:32.285Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "71516b0a-1ab1-466e-9a72-b1c5c40ffd63",
+        "order_number": "CF-2026-0051",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "300.00",
+        "discount_amount": "0.00",
+        "tax_amount": "15.00",
+        "total_amount": "315.00",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-04T12:44:42.312Z",
+        "updated_at": "2026-07-05T12:35:37.472Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "452e942c-a42d-426e-ad37-451f7380c090",
+        "order_number": "CF-2026-0052",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "370.00",
+        "discount_amount": "37.00",
+        "tax_amount": "16.65",
+        "total_amount": "349.65",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T13:17:35.774Z",
+        "updated_at": "2026-07-05T08:03:26.561Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "30b55586-6650-4bfe-9d57-93332d66a907",
+        "order_number": "CF-2026-0053",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "120.00",
+        "discount_amount": "0.00",
+        "tax_amount": "6.00",
+        "total_amount": "126.00",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-04T13:18:35.545Z",
+        "updated_at": "2026-07-05T08:03:51.146Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "db72dee0-38c1-45ca-8ac0-fa22c0385687",
+        "order_number": "CF-2026-0054",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "150.00",
+        "discount_amount": "15.00",
+        "tax_amount": "6.75",
+        "total_amount": "141.75",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T13:31:35.316Z",
+        "updated_at": "2026-07-05T08:03:28.411Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "436b2e52-a2f7-4257-a83b-252eba4b3290",
+        "order_number": "CF-2026-0055",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "150.00",
+        "discount_amount": "0.00",
+        "tax_amount": "7.50",
+        "total_amount": "157.50",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T13:32:28.531Z",
+        "updated_at": "2026-07-05T08:03:17.388Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "85ff7024-d43b-4820-a44c-ea9e57fb4736",
+        "order_number": "CF-2026-0056",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "170.00",
+        "discount_amount": "0.00",
+        "tax_amount": "8.50",
+        "total_amount": "178.50",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-04T13:33:00.551Z",
+        "updated_at": "2026-07-05T08:03:20.731Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "c531e0f7-ec3c-478b-91f8-cc54673197f5",
+        "order_number": "CF-2026-0057",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "470.00",
+        "discount_amount": "47.00",
+        "tax_amount": "21.15",
+        "total_amount": "444.15",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-04T13:33:45.448Z",
+        "updated_at": "2026-07-05T08:03:48.581Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "e78f0777-f5fa-4d8a-b056-413a607d1d1d",
+        "order_number": "CF-2026-0058",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "340.00",
+        "discount_amount": "34.00",
+        "tax_amount": "15.30",
+        "total_amount": "321.30",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-04T13:34:13.766Z",
+        "updated_at": "2026-07-05T08:03:49.754Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "38d01f91-2088-4507-994d-e0516b1bf3ea",
+        "order_number": "CF-2026-0059",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "145.00",
+        "discount_amount": "14.50",
+        "tax_amount": "6.53",
+        "total_amount": "137.03",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T13:39:44.035Z",
+        "updated_at": "2026-07-05T12:35:38.506Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "50b36685-f8b6-46a4-afd9-b0ea395df5cb",
+        "order_number": "CF-2026-0060",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "590.00",
+        "discount_amount": "59.00",
+        "tax_amount": "26.55",
+        "total_amount": "557.55",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-04T13:41:31.411Z",
+        "updated_at": "2026-07-05T08:03:16.231Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "b4db1f5c-3282-4388-9d99-72a5a79a6b6d",
+        "order_number": "CF-2026-0061",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "280.00",
+        "discount_amount": "28.00",
+        "tax_amount": "12.60",
+        "total_amount": "264.60",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-04T13:42:13.998Z",
+        "updated_at": "2026-07-05T12:35:40.533Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "f24f5191-a7d9-4c9e-b226-e99e6904a848",
+        "order_number": "CF-2026-0062",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "430.00",
+        "discount_amount": "43.00",
+        "tax_amount": "19.35",
+        "total_amount": "406.35",
+        "payment_method": "qr_upi",
+        "notes": null,
+        "created_at": "2026-07-04T13:42:59.893Z",
+        "updated_at": "2026-07-05T12:43:35.322Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "f6c8e45a-8e00-4a9a-92c4-38ac5ef1b11f",
+        "order_number": "CF-2026-0063",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "510.00",
+        "discount_amount": "51.00",
+        "tax_amount": "22.95",
+        "total_amount": "481.95",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T14:37:45.006Z",
+        "updated_at": "2026-07-05T12:43:36.315Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "6340ed94-bb9e-4280-8355-87f761392e4f",
+        "order_number": "CF-2026-0064",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "230.00",
+        "discount_amount": "0.00",
+        "tax_amount": "11.50",
+        "total_amount": "241.50",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-04T14:39:12.937Z",
+        "updated_at": "2026-07-05T12:43:37.701Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "0a79ab68-7bac-423e-bd79-e5e074ddadc4",
+        "order_number": "CF-2026-0065",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "240.00",
+        "discount_amount": "0.00",
+        "tax_amount": "12.00",
+        "total_amount": "252.00",
+        "payment_method": "qr_upi",
+        "notes": null,
+        "created_at": "2026-07-04T14:43:48.564Z",
+        "updated_at": "2026-07-05T08:03:23.058Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "c0e044ea-67b5-4504-bf7d-61cb6aaf1f37",
+        "order_number": "CF-2026-0066",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "740.00",
+        "discount_amount": "74.00",
+        "tax_amount": "33.30",
+        "total_amount": "699.30",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-04T14:54:59.259Z",
+        "updated_at": "2026-07-05T08:03:25.512Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "72858f67-083b-4bff-ba90-90e018cc5d79",
+        "order_number": "CF-2026-0067",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "170.00",
+        "discount_amount": "17.00",
+        "tax_amount": "7.65",
+        "total_amount": "160.65",
+        "payment_method": "qr_upi",
+        "notes": null,
+        "created_at": "2026-07-04T14:56:32.373Z",
+        "updated_at": "2026-07-05T12:47:07.247Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "ea6c91f4-e011-4ee4-afa8-138aa7f24889",
+        "order_number": "CF-2026-0068",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "290.00",
+        "discount_amount": "29.00",
+        "tax_amount": "13.05",
+        "total_amount": "274.05",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-04T15:23:59.201Z",
+        "updated_at": "2026-07-05T08:03:30.886Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "ea917c42-9e34-4fa3-b268-adc398deaa01",
+        "order_number": "CF-2026-0069",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": null,
+        "status": "served",
+        "subtotal": "380.00",
+        "discount_amount": "0.00",
+        "tax_amount": "19.00",
+        "total_amount": "399.00",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-04T15:24:44.605Z",
+        "updated_at": "2026-07-05T13:08:23.257Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "5dd02e3d-a496-403f-aa73-d0d73dcae11f",
+        "order_number": "CF-2026-0070",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "120.00",
+        "discount_amount": "12.00",
+        "tax_amount": "5.40",
+        "total_amount": "113.40",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-05T07:45:39.487Z",
+        "updated_at": "2026-07-05T13:08:41.300Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "99348788-c1a4-493f-88e6-3341b958dbb0",
+        "order_number": "CF-2026-0071",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "150.00",
+        "discount_amount": "15.00",
+        "tax_amount": "6.75",
+        "total_amount": "141.75",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-05T08:30:27.084Z",
+        "updated_at": "2026-07-05T13:08:24.797Z",
+        "shift_id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d"
+      },
+      {
+        "id": "c0c0f198-1032-4595-96fc-264d615d2039",
+        "order_number": "CF-2026-0072",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "620.00",
+        "discount_amount": "62.00",
+        "tax_amount": "27.90",
+        "total_amount": "585.90",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-05T09:48:43.616Z",
+        "updated_at": "2026-07-05T13:08:42.233Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "f1bbfe08-3a9d-45a4-8a5a-c49c2bf80fe8",
+        "order_number": "CF-2026-0073",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "560.00",
+        "discount_amount": "56.00",
+        "tax_amount": "25.20",
+        "total_amount": "529.20",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-05T10:14:37.284Z",
+        "updated_at": "2026-07-05T13:48:33.126Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "1ce6555b-00d4-421d-bc3b-611b8cf00556",
+        "order_number": "CF-2026-0074",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "480.00",
+        "discount_amount": "48.00",
+        "tax_amount": "21.60",
+        "total_amount": "453.60",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-05T10:20:31.967Z",
+        "updated_at": "2026-07-05T13:48:30.290Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "e8762118-33ef-44d4-9340-d7e91d38bb5b",
+        "order_number": "CF-2026-0075",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "410.00",
+        "discount_amount": "41.00",
+        "tax_amount": "18.45",
+        "total_amount": "387.45",
+        "payment_method": "card",
+        "notes": null,
+        "created_at": "2026-07-05T10:23:11.286Z",
+        "updated_at": "2026-07-06T19:24:11.908Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "4dda994c-a5f1-4a26-929c-80e212c3a1a4",
+        "order_number": "CF-2026-0076",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "425.00",
+        "discount_amount": "42.50",
+        "tax_amount": "19.13",
+        "total_amount": "401.63",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-05T10:30:45.697Z",
+        "updated_at": "2026-07-05T13:48:34.360Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "4db13c86-d621-4ff2-a4f7-187af3bf478e",
+        "order_number": "CF-2026-0077",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "520.00",
+        "discount_amount": "52.00",
+        "tax_amount": "23.40",
+        "total_amount": "491.40",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-05T10:31:41.372Z",
+        "updated_at": "2026-07-06T19:24:12.866Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "f8d770a0-57e5-4f98-af22-b63386d758bf",
+        "order_number": "CF-2026-0078",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "250.00",
+        "discount_amount": "25.00",
+        "tax_amount": "11.25",
+        "total_amount": "236.25",
+        "payment_method": "cash",
+        "notes": null,
+        "created_at": "2026-07-05T11:36:56.082Z",
+        "updated_at": "2026-07-06T19:24:19.223Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "5bbdb074-3e32-4195-b5e8-0a538056a378",
+        "order_number": "CF-2026-0079",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "status": "served",
+        "subtotal": "488.00",
+        "discount_amount": "48.80",
+        "tax_amount": "21.96",
+        "total_amount": "461.16",
+        "payment_method": "campus_wallet",
+        "notes": null,
+        "created_at": "2026-07-05T13:56:25.999Z",
+        "updated_at": "2026-07-06T19:24:40.502Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "3261af18-a58e-4190-9444-e738fbc7fed8",
+        "order_number": "CF-2026-0080",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "350.00",
+        "discount_amount": "35.00",
+        "tax_amount": "15.75",
+        "total_amount": "330.75",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-05T13:58:14.681Z",
+        "updated_at": "2026-07-06T19:24:22.790Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "cd026d7e-2417-4470-a6bb-bcaa4caee861",
+        "order_number": "CF-2026-0081",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "preparing",
+        "subtotal": "350.00",
+        "discount_amount": "35.00",
+        "tax_amount": "15.75",
+        "total_amount": "330.75",
+        "payment_method": null,
+        "notes": null,
+        "created_at": "2026-07-05T13:59:11.352Z",
+        "updated_at": "2026-07-06T19:24:24.217Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "8d2f229d-461a-4b5d-83da-27c0ce3b0c60",
+        "order_number": "CF-2026-0082",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "served",
+        "subtotal": "350.00",
+        "discount_amount": "35.00",
+        "tax_amount": "15.75",
+        "total_amount": "330.75",
+        "payment_method": "qr_upi",
+        "notes": null,
+        "created_at": "2026-07-05T13:59:46.977Z",
+        "updated_at": "2026-07-06T20:10:31.376Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "f973df6b-7d9d-49c6-bea0-1baf848ab107",
+        "order_number": "CF-2026-0083",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "ready",
+        "subtotal": "130.00",
+        "discount_amount": "13.00",
+        "tax_amount": "5.85",
+        "total_amount": "122.85",
+        "payment_method": "split",
+        "notes": null,
+        "created_at": "2026-07-05T14:06:26.729Z",
+        "updated_at": "2026-07-05T16:07:12.321Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "c6252938-c77e-48cc-a888-8f55ef98abd3",
+        "order_number": "CF-2026-0084",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "preparing",
+        "subtotal": "475.00",
+        "discount_amount": "47.50",
+        "tax_amount": "21.38",
+        "total_amount": "448.88",
+        "payment_method": "split",
+        "notes": null,
+        "created_at": "2026-07-05T16:02:49.584Z",
+        "updated_at": "2026-07-05T16:06:55.218Z",
+        "shift_id": "805811cc-91d2-42b7-8e08-2b572a3c9d45"
+      },
+      {
+        "id": "c6db72da-750b-442b-8546-2af662a3d68e",
+        "order_number": "CF-2026-0085",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "student_id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "status": "confirmed",
+        "subtotal": "65.00",
+        "discount_amount": "6.50",
+        "tax_amount": "2.93",
+        "total_amount": "61.43",
+        "payment_method": "meal_plan",
+        "notes": null,
+        "created_at": "2026-07-06T19:22:51.721Z",
+        "updated_at": "2026-07-06T19:22:53.672Z",
+        "shift_id": "26b5c8c3-505d-46c3-80cd-eec5ce152dd6"
+      }
+    ],
+    "users": [
+      {
+        "id": "de9f13d7-9a95-40cb-94d9-558aa9ffe380",
+        "name": "Student One",
+        "email": "student1@university.edu",
+        "role": "student",
+        "student_id": "STU-2024-001",
+        "is_active": true,
+        "created_at": "2026-06-17T15:16:23.959Z"
+      },
+      {
+        "id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "name": "Cashier Two",
+        "email": "cashier2@university.edu",
+        "role": "cashier",
+        "student_id": null,
+        "is_active": true,
+        "created_at": "2026-06-17T15:16:23.959Z"
+      },
+      {
+        "id": "7b4b4c72-394d-4421-9caa-e91db2950a41",
+        "name": "Kitchen Staff",
+        "email": "kitchen@university.edu",
+        "role": "kitchen",
+        "student_id": null,
+        "is_active": true,
+        "created_at": "2026-06-17T15:16:23.959Z"
+      },
+      {
+        "id": "de8e54fc-107c-4f3c-87ec-d207bb35b175",
+        "name": "Student Two",
+        "email": "student2@university.edu",
+        "role": "student",
+        "student_id": "STU-2024-002",
+        "is_active": true,
+        "created_at": "2026-06-17T15:16:23.959Z"
+      },
+      {
+        "id": "1460a362-63ce-46f2-a8a9-1ce48f0d3a26",
+        "name": "System Admin",
+        "email": "admin@university.edu",
+        "role": "admin",
+        "student_id": null,
+        "is_active": true,
+        "created_at": "2026-06-17T15:16:23.959Z"
+      },
+      {
+        "id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "name": "Cashier One",
+        "email": "cashier1@university.edu",
+        "role": "cashier",
+        "student_id": null,
+        "is_active": true,
+        "created_at": "2026-06-17T15:16:23.959Z"
+      },
+      {
+        "id": "6b2ed81e-69d1-4249-a52a-be3efb089149",
+        "name": "Sarah Murtaza",
+        "email": "sarahmurtaza2005@gmail.com",
+        "role": "cashier",
+        "student_id": null,
+        "is_active": true,
+        "created_at": "2026-06-17T16:03:09.282Z"
+      },
+      {
+        "id": "7646159c-7b98-412c-9e8c-cb112dce0364",
+        "name": "Sarah",
+        "email": "sarah2005@gmail.com",
+        "role": "student",
+        "student_id": "O1F23UBSCS061",
+        "is_active": true,
+        "created_at": "2026-06-17T16:16:14.640Z"
+      },
+      {
+        "id": "85653908-33a9-452c-947c-055700745324",
+        "name": "Test Student",
+        "email": "test_student@university.edu",
+        "role": "student",
+        "student_id": "STU-2026-999",
+        "is_active": true,
+        "created_at": "2026-06-17T17:10:59.521Z"
+      }
+    ],
+    "menu_items": [
+      {
+        "id": "00c5ea40-64ca-4c47-ae06-1948e7c914c5",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Halwa Puri",
+        "description": "Crispy puri served with sweet halwa and spiced chickpeas. A traditional breakfast.",
+        "price": "135.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1lDhSXRKWNsuZyg92ASdXkKEk8LNszLkVmLD6_ZrZoTq6TuKJzjSG263&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 30,
+          "carbs_g": 78,
+          "calories": 620,
+          "protein_g": 10
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "09f06a50-53ea-4da2-be2b-08e1c9296ad4",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Water Bottle",
+        "description": "Chilled mineral water bottle.",
+        "price": "60.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy6lTpS9vp_BLJgChpZXm_Z0vmebu-4LiKjFww4gOAw3APz5ye3kYKl94&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 0,
+          "calories": 0,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "09fc001b-e80e-47a0-beac-5707e9c949ab",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "French Toast",
+        "description": "Golden pan-fried bread slices dipped in sweet egg batter, served with syrup.",
+        "price": "110.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_9yqt-OBK9Og8Y0FBCg87pfFGIk1MFBpLM8N_GVDFuA&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 14,
+          "carbs_g": 44,
+          "calories": 340,
+          "protein_g": 10
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "0a815998-050e-4b63-844c-94c507653549",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Ras Malai",
+        "description": "Soft cheese dumplings in a creamy, saffron-flavored milk base.",
+        "price": "120.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ocD3Ml4AnzEmWstqL7YUqYqCSvm1vF9DQRNgrd90YhAbRfjespSJOSVS&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy",
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 10,
+          "carbs_g": 34,
+          "calories": 260,
+          "protein_g": 8
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "0d4540fe-cd8d-4c61-a7cb-95f301750edc",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Gulab Jamun",
+        "description": "Soft milk-solid dumplings soaked in fragrant rose syrup.",
+        "price": "80.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThJC-droXtclRWi9a8Kw84tZvXQcB7gHdz93-7LmWnaV1pRAKOAY2pKLg&s=10",
+        "is_available": false,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 11,
+          "carbs_g": 46,
+          "calories": 300,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "0e5febe5-5870-416e-9443-64562d4c127e",
+        "category_id": "2dcf58af-1065-4542-8085-f7774e594b57",
+        "name": "Chicken Sandwich Meal",
+        "description": "Grilled chicken sandwich served with fries and a refreshing soft drink.",
+        "price": "220.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy3RjnvmULy5HYmQYvYyvJ8LfoPVuoWV7A5Yhci0IafQ1sbErs8vdPbBnk&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 32,
+          "carbs_g": 70,
+          "calories": 680,
+          "protein_g": 26
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "0f3f27b3-3aaa-4fe1-a418-84e87dfcb239",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Chana Masala with Rice or Naan",
+        "description": "Spiced chickpea curry served with steamed rice or fresh naan.",
+        "price": "180.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXgT4_aHVgl_PLBLFIcec9qhxVvvCHpbX7RuWmaF1SoEHkECFCYruYrM&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 11,
+          "carbs_g": 70,
+          "calories": 440,
+          "protein_g": 15
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "0fbfdb67-ea3e-4a31-b1e0-63639561143b",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Chicken Roll (Paratha Roll)",
+        "description": "Spiced chicken strips rolled in a warm paratha with chutney and salad.",
+        "price": "150.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2l3T6-Om3M79M-cvxH37zbn4_eVg50MxCUcUTbJGWtw&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 22,
+          "carbs_g": 40,
+          "calories": 440,
+          "protein_g": 20
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "11d02f7b-6d2e-41a7-a4e6-eb8eb787d185",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Achari Chicken",
+        "description": "Chicken cooked in tangy pickle-style spices.",
+        "price": "280.00",
+        "image_url": "https://stewwithsaba.com/wp-content/uploads/2024/10/IMG_9899-edited.jpg",
+        "is_available": false,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 24,
+          "carbs_g": 10,
+          "calories": 390,
+          "protein_g": 28
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "12ca926a-cd4c-4dad-8a1d-7366937cf33e",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Chicken Shami Roll",
+        "description": "Spiced shami kabab wrapped in warm paratha with chutney and salad.",
+        "price": "120.00",
+        "image_url": "https://i.ytimg.com/vi/dpJmLuNPicU/hqdefault.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 21,
+          "carbs_g": 38,
+          "calories": 410,
+          "protein_g": 18
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "1651e7e7-420f-4eaa-a220-1c437c4e45b5",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Mango Juice",
+        "description": "Sweet mango juice made with ripe mango pulp.",
+        "price": "110.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYma1t8mliAknwV9g5D0-APizRf8HrHJnpv_j4UjJ7cgt-6CjvKy25fBU&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 40,
+          "calories": 160,
+          "protein_g": 1
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "173df837-4fa5-429c-9c5f-bcd6e64009bc",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Americano",
+        "description": "Classic black coffee, bold and simple.",
+        "price": "150.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToymGBIu_usHqcQUAMtZ2qz-TAUFpje50SlVXxBCLW3si7UL9Wyc3mNAM&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 2,
+          "calories": 10,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "177c3606-1e1a-4cc8-a65c-235543f7ec28",
+        "category_id": "2dcf58af-1065-4542-8085-f7774e594b57",
+        "name": "Grilled Fish Meal",
+        "description": "Grilled fish fillet served with steamed vegetables and lemon butter sauce.",
+        "price": "260.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzYg69eZyn_gVHK7CJiSbtx7jGAw6TDF0CmA6Vc9Ci40bcj7JOhcWq5bE&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Fish"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 26,
+          "carbs_g": 18,
+          "calories": 480,
+          "protein_g": 34
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "178d55a4-e7f2-410b-bed2-fa7dfbbf48ed",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Chocolate Milkshake",
+        "description": "Rich and creamy chocolate milkshake topped with chocolate syrup.",
+        "price": "150.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8zuuFnPyVpMC7X0NOQi99ZNzGZfPx9s78ga-o2T6lYrZ3CaCMXbxzZUwU&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 14,
+          "carbs_g": 56,
+          "calories": 380,
+          "protein_g": 9
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "1843a3d5-10e0-4b0f-b043-df507b897697",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Slice Cake",
+        "description": "Single slice of chocolate or vanilla sponge cake.",
+        "price": "55.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlW64ZgC4yATaw32NtuO3kVYMIFuUyeFm3x2nYecbP2OtLJ2sIW2qmGQc&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 13,
+          "carbs_g": 38,
+          "calories": 280,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "18effc46-000a-4199-9550-bf8c03af5071",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Banana Milkshake",
+        "description": "Thick and creamy banana milkshake made with fresh bananas.",
+        "price": "140.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWyD7_4W0cOt60Bm0pckY12JujOXwknlXp1XghuAjdeBbmnlZZ1P8_Gg5v&s=10",
+        "is_available": false,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 9,
+          "carbs_g": 48,
+          "calories": 300,
+          "protein_g": 8
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "18f9e740-dcd6-4191-a409-888f8a8fe6bf",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Aloo Gosht with Roti",
+        "description": "Tender beef and potato curry served with fresh roti bread.",
+        "price": "250.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5GL9b5ssuGyUnOFfh-nx5IAX0AD5dofnhM9RF1fSy66pgO8p7BhSEjjM&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 26,
+          "carbs_g": 44,
+          "calories": 540,
+          "protein_g": 30
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "20208dc8-41ea-489c-a2d0-82283dde0db7",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Seekh Kebab with Naan",
+        "description": "Skewered minced meat kebabs, chargrilled and served with naan and chutney.",
+        "price": "250.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp7uhjKG-0Ay3hbhCTucFFr_HS6Va0MLZd47n15Fa0mA&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 26,
+          "carbs_g": 36,
+          "calories": 490,
+          "protein_g": 28
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "22d5c9f8-b36f-4244-a896-6fbf70639a08",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Kurkure",
+        "description": "Crunchy spiced corn puffs, a popular snack-time favorite.",
+        "price": "45.00",
+        "image_url": "https://bumper.sale/wp-content/uploads/2024/09/51-1.webp",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "V",
+          "VE"
+        ],
+        "nutritional_info": {
+          "fat_g": 8,
+          "carbs_g": 18,
+          "calories": 150,
+          "protein_g": 2
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "2899bf8a-32b9-4d3f-8ef2-300c573c85d6",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Pancakes with Honey",
+        "description": "Fluffy pancakes drizzled with honey and a pat of butter.",
+        "price": "130.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAGhytspVsyOimVwVSzO6UvlVttGkq3jSEdIhJCttwwQ&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 16,
+          "carbs_g": 62,
+          "calories": 420,
+          "protein_g": 8
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "28a6fa8d-f353-4e2f-936f-2224cd9b21bc",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Vegetable Cutlet",
+        "description": "Pan-fried mixed vegetable cutlets served with ketchup.",
+        "price": "70.00",
+        "image_url": "https://imgs.search.brave.com/23fji_6LMf_bQMM9STcamiM8Wiq6pe8Zmil519J40ps/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2E0Lzdj/LzUyL2E0N2M1Mjk5/YTcyOThlNGU1Zjgx/YzBmNDUzZGVjYjll/LmpwZw",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 10,
+          "carbs_g": 30,
+          "calories": 230,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "2a3ebed3-f4a4-4b90-9cec-851fa2762bd8",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Chicken Wings (4 pcs)",
+        "description": "Spicy grilled or fried chicken wings served with dip.",
+        "price": "220.00",
+        "image_url": "https://imgs.search.brave.com/zbFdOPDfCWcJb2IRVqtLVEVE13S_HT7Wj2fjY-AYVxA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YWxscmVjaXBlcy5j/b20vdGhtYi9YRDZz/YmdyNVB3U2ppZTJK/RWVoSC10bkJHbTg9/LzE1MDB4MC9maWx0/ZXJzOm5vX3Vwc2Nh/bGUoKTptYXhfYnl0/ZXMoMTUwMDAwKTpz/dHJpcF9pY2MoKTpm/b3JtYXQod2VicCkv/QUxSLTE4NzgyMi1i/YWtlZC1jaGlja2Vu/LXdpbmdzLTR4My01/YzdiNDYyNGM4NTU0/ZjNkYTVhYWJiN2Qz/YTkxYTIwOS5qcGc",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 30,
+          "carbs_g": 10,
+          "calories": 420,
+          "protein_g": 26
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "312193f9-b3f0-43f8-8849-046d1655b736",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Samosa Chaat",
+        "description": "Crushed samosa topped with chaat masala, yogurt, tamarind chutney, and onions.",
+        "price": "100.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkw7La5Kr-Xdvr88lKOnd931ifwFHFmISwgK6HchVgjTU_QDDVKsvV_K4&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 15,
+          "carbs_g": 42,
+          "calories": 340,
+          "protein_g": 8
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "3428ef89-75d9-4025-b55d-aa96f0d094ce",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Masala Chai",
+        "description": "Spiced tea brewed with milk, cardamom, and ginger.",
+        "price": "60.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjgMFGySDaHAgnY1wvXZhXi9dYa7BYByzQaD1T_G4H_FDXNG5KOxNfmg&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 3,
+          "carbs_g": 14,
+          "calories": 100,
+          "protein_g": 2
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "34ffea40-452b-4d1e-bdd8-a41e5eaf9acf",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Iced Tea",
+        "description": "Chilled lemon iced tea, perfect for a hot day.",
+        "price": "90.00",
+        "image_url": "https://hips.hearstapps.com/hmg-prod/images/delish-210419-iced-tea-02-landscape-jg-1619020612.jpg?crop=0.8891666666666667xw:1xh;center,top&resize=1200:*",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 22,
+          "calories": 90,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "3662b40f-365f-48d4-9014-2ec3471c34f3",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Peach Iced Tea",
+        "description": "Chilled peach-flavored iced tea.",
+        "price": "100.00",
+        "image_url": "https://www.vegetarianventures.com/wp-content/uploads/2019/07/PeachLemonadeBlog-16-of-18.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 27,
+          "calories": 110,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "3c97cd51-4603-42c8-a12a-0b7df58a42cd",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Mutton Qorma with Naan",
+        "description": "Rich and aromatic mutton qorma served with warm naan.",
+        "price": "415.00",
+        "image_url": "https://tossncook.com/wp-content/uploads/2020/06/PicsArt_05-24-04.31.52-1-968x1024.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy",
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 40,
+          "carbs_g": 40,
+          "calories": 660,
+          "protein_g": 34
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "3cb361f1-d88f-471d-9a9f-69eb9d4dc922",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Chai (Tea)",
+        "description": "Hot doodh patti chai - the perfect tea break companion.",
+        "price": "40.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0m5HGJl3DCHRmw657b4py5VKh3uDc6q3zzgHAoBHUzXBmU9N-EXXHJfDd&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 3,
+          "carbs_g": 12,
+          "calories": 90,
+          "protein_g": 2
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "3ce9b54c-8199-4cb1-807b-395314fcc446",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Oreo Milkshake",
+        "description": "Creamy milkshake blended with Oreo cookies and milk.",
+        "price": "160.00",
+        "image_url": "https://saltandbaker.com/wp-content/uploads/2020/12/oreo-milkshake-recipe-500x500.jpg",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy",
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 16,
+          "carbs_g": 62,
+          "calories": 420,
+          "protein_g": 8
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "3d3ad9a5-a081-466b-a07c-42ef44d696f4",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Mango Shake",
+        "description": "Thick, creamy mango milkshake made with real mango pulp.",
+        "price": "150.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEqMwRLOA2XsRLeVL8pPp38FUvgbk1bteizN-mzJkFKX_Y6HM04zCTWF4&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 10,
+          "carbs_g": 52,
+          "calories": 320,
+          "protein_g": 8
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "3e6d2247-78e9-4507-9d31-c59c5c8630cc",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Fresh Lemonade",
+        "description": "Chilled fresh-squeezed lemonade with a hint of mint.",
+        "price": "70.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmLy9HNoCjMj9NdQCcZ6k3gZk8QuVby18CCyKybsL56w&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 28,
+          "calories": 110,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "3e9a2cfc-a54e-48ba-af90-1ce62ef368c9",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Daal Chawal",
+        "description": "Comforting yellow lentils served with steamed rice. Budget-friendly & filling.",
+        "price": "175.00",
+        "image_url": "https://media.istockphoto.com/id/1421211681/photo/healthy-nutritious-indian-comfort-food-dal-chawal-thali-or-dal-rice-served-in-two-way-ceramic.jpg?s=612x612&w=0&k=20&c=TaR7-0unJIBPS34oKoHnDdPkHP-Y84MdxbGlwdivzgw=",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 8,
+          "carbs_g": 72,
+          "calories": 420,
+          "protein_g": 16
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "46191f62-05ac-46fb-9610-242348ba105f",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Chicken/Mutton Handi",
+        "description": "Premium single-serving meat handi served in a traditional clay pot with naan.",
+        "price": "450.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjRKs0xnaR13ZPk9smimGf5smZcpCLwubbloFsGMQq1jjIzPyFMbiVinE&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 42,
+          "carbs_g": 16,
+          "calories": 600,
+          "protein_g": 38
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "464a59b9-601b-488a-a899-b220cd5bb1f7",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Chocolate Bar",
+        "description": "Dairy Milk or similar chocolate bar - sweet indulgence.",
+        "price": "60.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTacBE4fDpSaZqEG_TXBlmf8zXB0hQDrRVpJt9_KkR9_UbaV6FiiKE7Pfq_&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy",
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 13,
+          "carbs_g": 25,
+          "calories": 230,
+          "protein_g": 3
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "4782185d-872a-4466-93f9-32782c9d8592",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Brownie",
+        "description": "Rich, fudgy chocolate brownie - a dessert lover's favorite.",
+        "price": "75.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlkBV5h0EjtXJkP5Dahcqd49FgK0k8UA-bvH8m3p5fN-ngu3t8egEkgEc&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg",
+          "Dairy",
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 42,
+          "calories": 340,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "484217a1-5736-43ad-a87c-9ed731ae4e34",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Chai with Rusk",
+        "description": "Hot doodh patti chai served with crispy rusk biscuits.",
+        "price": "40.00",
+        "image_url": "https://m.media-amazon.com/images/I/61paf8WxhJL.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 6,
+          "carbs_g": 28,
+          "calories": 180,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "4ab74fff-6d11-4ab1-b53f-e5df80a8d067",
+        "category_id": "2dcf58af-1065-4542-8085-f7774e594b57",
+        "name": "Falafel Wrap Meal",
+        "description": "Crispy falafel wrap with hummus and salad, served with a side and drink.",
+        "price": "190.00",
+        "image_url": "https://apexnutrition.ie/wp-content/uploads/2023/06/Falafel-Wraps.jpeg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Sesame"
+        ],
+        "dietary_tags": [
+          "V",
+          "VE"
+        ],
+        "nutritional_info": {
+          "fat_g": 16,
+          "carbs_g": 60,
+          "calories": 440,
+          "protein_g": 12
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "4bf15e92-26c0-40c8-9aa6-fd9dd77af714",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Nihari with Naan",
+        "description": "Slow-cooked beef nihari served with fresh naan bread.",
+        "price": "200.00",
+        "image_url": "https://dinneratthefranzens.com/wp-content/uploads/2022/08/nihari1.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 26,
+          "carbs_g": 48,
+          "calories": 540,
+          "protein_g": 28
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "4e9ea8dc-20ea-4cbf-92cc-32774391560a",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Plain Paratha",
+        "description": "Simple whole wheat paratha, perfect with daal or a fried egg.",
+        "price": "35.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4soCLfeFgu3xjniPeA_OBEJOXNmlOprmdrqPpP1cOsphMS5LZNaHmhe3L&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 10,
+          "carbs_g": 36,
+          "calories": 260,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-04T05:43:33.949Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "53ecd673-411e-4d91-854d-94c39d020c86",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Malai Boti",
+        "description": "Tender chicken pieces marinated in cream and spices, chargrilled to perfection.",
+        "price": "420.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSS4A30DCxrt45ZMtSZPYYaeIPrFVlWygRj36_X99OpQ&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 24,
+          "carbs_g": 6,
+          "calories": 380,
+          "protein_g": 36
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "5450aff2-4205-4b76-95bd-0a3d6aa0fdc4",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "French Fries",
+        "description": "Crispy golden fries, lightly salted, served with ketchup.",
+        "price": "150.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwn16qcQVv_D668Gzq1YGyWJQUfDeXGIxj0keiKgiSww&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "V",
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 50,
+          "calories": 380,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "56dbf52b-3f81-428e-84c7-208628a5ebf0",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Kulfi",
+        "description": "Traditional frozen ice cream stick flavored with cardamom and pistachio.",
+        "price": "110.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTabaJszMyoOnFXbQivxFbbwN75obIWFAWkAr_NAIoqKqJlg0JCruUq0Gg&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy",
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 13,
+          "carbs_g": 24,
+          "calories": 230,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "572be938-3863-459e-8e17-353bc5ce2563",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Gol Gappay / Pani Puri",
+        "description": "Hollow crispy balls filled with spiced potatoes, served with tangy water.",
+        "price": "70.00",
+        "image_url": "https://i.ytimg.com/vi/x23Uwcluefc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAuqCYJ5-h3UANanUadsXotBELtvw",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 6,
+          "carbs_g": 32,
+          "calories": 200,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "58193800-ba52-4757-a76f-52d69bb4d23e",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Sabzi with Roti",
+        "description": "Seasonal vegetable curry with spinach, served with roti.",
+        "price": "140.00",
+        "image_url": "https://www.arise-app.com/images/dishes/en/indian-meal-with-roti-curry-potato-sabzi-and-guava-1ml7tz.webp",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 11,
+          "carbs_g": 46,
+          "calories": 320,
+          "protein_g": 9
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "5c703385-f644-4fdb-b3ac-a31f98314801",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Fruit Custard",
+        "description": "Chilled creamy custard mixed with seasonal fresh fruits.",
+        "price": "100.00",
+        "image_url": "https://www.blendwithspices.com/wp-content/uploads/2016/02/fruit-custard-recipe.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy",
+          "Egg"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 7,
+          "carbs_g": 36,
+          "calories": 230,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "5db6e472-4556-4f01-8cf4-bc1fc0b98e6c",
+        "category_id": "2dcf58af-1065-4542-8085-f7774e594b57",
+        "name": "Veggie Wrap Meal",
+        "description": "Fresh vegetable wrap with hummus, served with a side salad and lemonade.",
+        "price": "180.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHkNm09owDvSqgPtZdXo3fGHwaW7Szz7pZo7h8PIuMl5gLw7M5QQ8s7b2W&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Sesame"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 15,
+          "carbs_g": 58,
+          "calories": 420,
+          "protein_g": 10
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "5e43439d-cb48-4f8f-bb04-62467d5328fa",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Aloo Paratha",
+        "description": "Fresh potato-stuffed paratha served hot with chutney. A student favorite.",
+        "price": "50.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDNglkDMgFuUR98kd4vbb3xTNlLGVJIRWYq7lr6SkeLA&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 14,
+          "carbs_g": 42,
+          "calories": 320,
+          "protein_g": 6
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "5f86e322-4a24-4114-8b49-3c28d014e37d",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Apple Pie",
+        "description": "Warm baked apple pie slice with cinnamon.",
+        "price": "180.00",
+        "image_url": "https://www.southernliving.com/thmb/bbDY1d_ySIrCFcq8WNBkR-3x6pU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/2589601_Mailb_Mailbox_Apple_Pie_003-da802ff7a8984b2fa9aa0535997ab246.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 14,
+          "carbs_g": 45,
+          "calories": 310,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "5fdb69de-0f8d-4c0a-aac7-8935e87db061",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Watermelon Juice",
+        "description": "Fresh chilled watermelon juice, naturally sweet and hydrating.",
+        "price": "100.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBqxUWDm5jEObHNOzybwBltEH5NVNgd8zi-Cc_HUhkrw&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 22,
+          "calories": 90,
+          "protein_g": 1
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "60ab577a-4947-4238-bc90-a027d06c1621",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Kheer",
+        "description": "Creamy rice pudding flavored with cardamom, almonds, and raisins.",
+        "price": "100.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFAldIv1h742VcZ_pMwQmYLsf4KoZTe9LT--IHnQKgW825LeHqR6DqNgge&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy",
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 9,
+          "carbs_g": 40,
+          "calories": 260,
+          "protein_g": 6
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "6182b18b-a74e-4ee1-b9f4-5aa628bb4d95",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Assorted Candies/Toffees",
+        "description": "Mix of colorful candies and toffees - perfect for a quick sweet treat.",
+        "price": "45.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIQiY8Uj44_kl064Y2EftGLXYrA6dvLO2ezh-ZrdSKnUE9pNA54rbpVeca&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 2,
+          "carbs_g": 26,
+          "calories": 120,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "61d01ef7-6c36-4ab9-b46c-7b79a8eae470",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Jalebi",
+        "description": "Crispy pretzel-shaped sweet soaked in sugar syrup - an iconic treat.",
+        "price": "60.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyJDvBDr2a6zVgkHpwSmeOHGmh0fouXIjYmIzhK9w0yP0vyKOmZr0hOWzM&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 8,
+          "carbs_g": 52,
+          "calories": 280,
+          "protein_g": 2
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "620d9dcd-f9cc-4352-8c66-78ffedc9f12e",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Egg Paratha (Anda Paratha)",
+        "description": "Paratha cooked with a layer of spiced beaten egg, crispy on the outside.",
+        "price": "70.00",
+        "image_url": "https://i.ytimg.com/vi/Xz31ahbF9FA/maxresdefault.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 19,
+          "carbs_g": 40,
+          "calories": 380,
+          "protein_g": 12
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "65c099e9-5541-45f6-a885-081ca4e7a5fe",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Chicken Shawarma",
+        "description": "Chicken shawarma wrapped in pita with garlic sauce and fresh vegetables.",
+        "price": "215.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRccCJN820woj96MJA2Lrw5FGxeSlRqTjzuXNcm9EQuzRXuRm1aqr5yOGVS&s=10",
+        "is_available": false,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 22,
+          "carbs_g": 44,
+          "calories": 480,
+          "protein_g": 24
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "6773cadd-9936-4439-b190-6fc7c6f6f28f",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Assorted Biscuits/Wafers",
+        "description": "Mixed packet of tea-time biscuits and wafers.",
+        "price": "40.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTpNEC6X9_33BdcVBrbktlGGiEUefyfazeDmE0G9sE84Eb9tVVPPhDFICC&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V",
+          "VE"
+        ],
+        "nutritional_info": {
+          "fat_g": 6,
+          "carbs_g": 20,
+          "calories": 140,
+          "protein_g": 2
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "6a81359c-5fee-4b79-b3e9-ac78301ecfa8",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Chicken Patty",
+        "description": "Flaky baked pastry filled with spiced minced chicken.",
+        "price": "90.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAH_GCD7TmdwFKgl0DYsbmMmLqJHd-5r18y5lEkun0gYIEiSvvaZAzxfx&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 17,
+          "carbs_g": 28,
+          "calories": 300,
+          "protein_g": 9
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "6c053afd-9eec-406c-81e0-13d64a084691",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Mini Pizza - Chicken Fajita",
+        "description": "Personal-sized pizza with sautéed chicken fajita strips and vegetables.",
+        "price": "220.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qVRjyZb-OQ4YBOJMNKA-gMCYnrk1NqQOy-KyLItDLJNyHMZRgeLvoCY&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 19,
+          "carbs_g": 46,
+          "calories": 450,
+          "protein_g": 21
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "71d65cc5-c006-41a0-81d7-64d0a3f51ac5",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Cupcake",
+        "description": "Soft vanilla or chocolate cupcake with buttercream frosting.",
+        "price": "65.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyicRh5Y5V6Na9kPHyhTybfSmKGpt52wd9MbVoqZ-Q_MYkdiex23FZC5dT&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 12,
+          "carbs_g": 34,
+          "calories": 260,
+          "protein_g": 3
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "7357aabd-6327-49e6-aa3e-891e779257ed",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Chicken Karahi",
+        "description": "Tender chicken cooked with tomatoes, peppers, and aromatic spices.",
+        "price": "315.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIJ2Y3YpMZwlNGTE2keJJ5C_jBa_AKJwBs4g_8jz_V-Q&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 30,
+          "carbs_g": 14,
+          "calories": 480,
+          "protein_g": 36
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "73eb9930-0fdf-445c-8f60-464590f0fd1f",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Strawberry Milkshake",
+        "description": "Creamy strawberry milkshake topped with whipped cream.",
+        "price": "130.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTRCVnyWgYITQ63KckuKISzoWqODrAuE75tXFQEznrdA&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 11,
+          "carbs_g": 46,
+          "calories": 310,
+          "protein_g": 7
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "749dc3f1-6268-4d56-ad38-fccfd2e20162",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Fresh Orange Juice",
+        "description": "Freshly squeezed orange juice, rich in vitamin C.",
+        "price": "120.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReqjk1rRWiRCrXsKiWluMOXLaoh8cmCBqi8ZMatmHTNw&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 30,
+          "calories": 130,
+          "protein_g": 2
+        },
+        "created_at": "2026-07-03T11:22:09.808Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "76dff610-8890-4872-9fad-8f0e9a09d36b",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Haleem",
+        "description": "Slow-cooked meat and lentil stew, a specialty during Ramadan.",
+        "price": "240.00",
+        "image_url": "https://i.ytimg.com/vi/qqF61epRQi8/sddefault.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 20,
+          "carbs_g": 46,
+          "calories": 480,
+          "protein_g": 26
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "772459ac-e1db-4ffd-a755-a31215f7756b",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Club Sandwich",
+        "description": "Triple-layered sandwich with chicken, bacon, lettuce, tomato, and mayo.",
+        "price": "320.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXbZ5De04oDSb0wvFxnALSI-DRCu-YaUmzn_z8fvM6Sk4X39KnKThRbuWL&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 32,
+          "carbs_g": 56,
+          "calories": 640,
+          "protein_g": 28
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "7e3cc79b-a492-4f6e-b4b0-b5110e29ccb9",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Mixed Dry Fruits Pack",
+        "description": "Small pack of mixed almonds, cashews, and raisins.",
+        "price": "90.00",
+        "image_url": "https://static.webx.pk/files/18781/Images/dryfruits-gift-pack-18781-0-081122092605729.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "V",
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 15,
+          "carbs_g": 14,
+          "calories": 210,
+          "protein_g": 6
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "8140eb71-a1e7-4765-bd6a-221556d01ac2",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Mutton Karahi",
+        "description": "Rich mutton karahi cooked in a tomato-based gravy with ginger and garlic.",
+        "price": "450.00",
+        "image_url": "https://mommyandkitchen.com/wp-content/uploads/2023/04/shinwari-mutton-karahi-top-view-500x500.jpg",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 38,
+          "carbs_g": 12,
+          "calories": 560,
+          "protein_g": 38
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "8148c712-7550-4018-821c-fdb72ad0105c",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Chicken Sausage & Egg",
+        "description": "Grilled chicken sausages served with a fried egg and toast.",
+        "price": "140.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG_6t0Wc0YNJO83ft-ledss-3yvP6IZ5CiosqwNnjMFbTGrmtCTcqq45oc&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Egg",
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 24,
+          "carbs_g": 22,
+          "calories": 390,
+          "protein_g": 20
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "83b2687c-f694-4178-96aa-d8b7b177447c",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Bun Kabab",
+        "description": "Spiced minced meat patty served inside a soft bun with chutney.",
+        "price": "80.00",
+        "image_url": "https://www.chilitochoc.com/wp-content/uploads/2021/03/bun-kebab-2-scaled-e1615826740701.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 30,
+          "calories": 340,
+          "protein_g": 15
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "884cbb72-f09b-4def-83b9-87f49fb85bf8",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Omelette",
+        "description": "Classic Pakistani-style omelette with onion, tomato, and green chilies.",
+        "price": "65.00",
+        "image_url": "https://www.wholesomeyum.com/wp-content/uploads/2023/08/wholesomeyum-Omelette-Recipe-7.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 16,
+          "carbs_g": 4,
+          "calories": 210,
+          "protein_g": 13
+        },
+        "created_at": "2026-07-04T05:43:33.949Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "8c6b06be-accb-49b2-9852-fb4a0590b713",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Papri Chaat",
+        "description": "Crispy wafers topped with potatoes, chickpeas, yogurt, and chutney.",
+        "price": "90.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu-G2pVupPka_JGey1nZ5VMZmL0f4tAQ1DHfoMzm474BNU8Zaf3SEbu-iO&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 13,
+          "carbs_g": 44,
+          "calories": 320,
+          "protein_g": 8
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "8f251214-7fbf-4cfd-9c3c-d7424f0ed76f",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Iced Coffee",
+        "description": "Chilled coffee over ice with milk and sugar.",
+        "price": "120.00",
+        "image_url": "https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Iced-Mocha-db3c51a.jpg?quality=90&resize=708,643",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 6,
+          "carbs_g": 24,
+          "calories": 170,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "91928dcf-139b-48d4-9f6b-675f20bfff5e",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Green Tea",
+        "description": "Hot green tea, light and refreshing.",
+        "price": "50.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRFg-0PN3MjuLD8p4RJK5GiCszI9GjCb7Y91L_uCubCC7dNSmxGOmb-aLH&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 1,
+          "calories": 5,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "927295b9-c071-4115-86ba-d2080e077375",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Samosa (2 pieces)",
+        "description": "Two crispy potato samosas served with tamarind and mint chutney.",
+        "price": "50.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj3nJZiyjWw5hF2ZkqIZvJF5zycl-GP0b4qYXE9cbX8g&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 13,
+          "carbs_g": 32,
+          "calories": 260,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "950e178e-4841-4752-a353-7467a5d0ed8e",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Ice Cream",
+        "description": "Creamy ice cream scoops available in vanilla, chocolate, and strawberry flavors.",
+        "price": "90.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFmOPb64RkmmkmCKi6wU5cokVWSoRARhaw0zztZX_z69wfoGhoatNZeTtw&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 11,
+          "carbs_g": 26,
+          "calories": 210,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "98696a51-9406-4a43-8ef2-27d81c50d1a7",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Pakora Plate",
+        "description": "Assorted vegetable pakoras (onion, potato, spinach) with mint chutney.",
+        "price": "100.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyo7-TZR3GwUqTgmzHX_1-1igsatEPJUJxYG_S70mk8jilR29k2cBzw2Bt&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 17,
+          "carbs_g": 34,
+          "calories": 310,
+          "protein_g": 7
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "998e931f-3033-4a20-a17b-5b9190e30682",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Apple Juice",
+        "description": "Fresh chilled apple juice.",
+        "price": "90.00",
+        "image_url": "https://media.istockphoto.com/id/503096289/photo/apple-juice-pouring-from-red-apples-into-a-glass.jpg?s=612x612&w=0&k=20&c=IUX6P386QI4V2641c8zYmnVl52nJMhhsCA2rUctHjqM=",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 26,
+          "calories": 110,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "99ea9ede-8470-4f2e-ab10-89ef35e991ab",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Mini Pizza - Chicken Tikka",
+        "description": "Personal-sized pizza topped with spiced chicken tikka and fresh cheese.",
+        "price": "220.00",
+        "image_url": "https://i.ytimg.com/vi/gwZQdsXV9rM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCVga7txo27EMf1N67zFYwZNmcUTw",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 20,
+          "carbs_g": 48,
+          "calories": 460,
+          "protein_g": 20
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "9b62c64a-2911-4ff5-92a8-8715e516f8f1",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Vegetable Biryani",
+        "description": "Fragrant basmati rice cooked with mixed vegetables and spices.",
+        "price": "200.00",
+        "image_url": "https://www.sharmispassions.com/wp-content/uploads/2022/03/VegBiryani4.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 14,
+          "carbs_g": 78,
+          "calories": 480,
+          "protein_g": 10
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "9cd74db1-fa7a-4311-aa70-efa43102bb30",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Coffee",
+        "description": "Hot instant or espresso-style coffee served with milk and sugar.",
+        "price": "80.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1OSwzuuv2_V3-rWkLoBNwKNAcfdHdY1FYps-mqYlmPEw4G1elNCDzcsU&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 4,
+          "carbs_g": 14,
+          "calories": 110,
+          "protein_g": 3
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "9fc21868-8d8f-4d6f-9ae7-3d9bfc0103f5",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Chicken Karahi with Roti",
+        "description": "Classic chicken karahi served with fresh tandoori roti.",
+        "price": "300.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkZ059-IVTBEcCf4qiq2nx6aA-PcR5Ssh-V4VUhRRfBmyvF9TanbxFY_tW&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 26,
+          "carbs_g": 36,
+          "calories": 500,
+          "protein_g": 34
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "a1299e60-56f9-4b11-8ef8-17f650de96b6",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Aloo Chaat",
+        "description": "Spicy tangy potato chaat topped with chutneys.",
+        "price": "60.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQARHiNI8g8LljrsfifFb7JVmM8Wqls84-07JSX48q-OaA-WbjXUA2bseTL&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 6,
+          "carbs_g": 30,
+          "calories": 180,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "a332607d-947f-4482-9b90-fc7919230f21",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Rooh Afza Sharbat",
+        "description": "Cold floral Rooh Afza sharbat served over ice - a summer favorite.",
+        "price": "70.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmi6dMFyWSyBDucE2UURLaC8O8FzRmWChl6YMSt346DfZN9nsiVKkKwRk&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 35,
+          "calories": 140,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "a887a20a-3b42-4c4e-8816-546b0a76fe9e",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Vanilla Milkshake",
+        "description": "Classic creamy vanilla milkshake.",
+        "price": "140.00",
+        "image_url": "https://flouronmyfingers.com/wp-content/uploads/2022/03/Homemade-Vanilla-Milkshake-picture.jpg",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 11,
+          "carbs_g": 46,
+          "calories": 320,
+          "protein_g": 8
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "aa679d2c-a1ca-4ee4-b559-81d759b5b709",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Dahi Bhalla Chaat",
+        "description": "Soft lentil fritters in yogurt, topped with chutney and spices.",
+        "price": "80.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJLgSxd2sZphK4DUN1XOY8YYmX9q9uETap-usdjzoL6sYUIzAxa2Y-p3kD&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 11,
+          "carbs_g": 34,
+          "calories": 280,
+          "protein_g": 9
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "ab838c58-bdab-4fa8-8924-59873ce2bfe2",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Daal Chawal with Kabab",
+        "description": "Upgraded daal chawal served with shami kabab and fresh salad.",
+        "price": "220.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiHZWDnzib-VFgAqv17On_seIxjf8qLsYEKrr2-GXAcBQ6lzOozP-SM26q&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 74,
+          "calories": 560,
+          "protein_g": 24
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "ad1cf55f-bfc1-46fd-b2b4-a5241d6ca6dc",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Chicken Biryani",
+        "description": "Fragrant basmati rice cooked with chicken and served with cooling raita.",
+        "price": "240.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBjTfNdM-oVdnnZwc7r4RJs6kAEyE3jAYACoL5s9gpHf0E2XhqWHhGH6A&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 22,
+          "carbs_g": 78,
+          "calories": 620,
+          "protein_g": 28
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "aedcf4e6-6750-4c42-ba7a-f89f94444c0d",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Chicken Nuggets (6 pcs)",
+        "description": "Crispy breaded chicken nuggets served with dip sauce.",
+        "price": "160.00",
+        "image_url": "https://imgs.search.brave.com/CeK4-fLzzFsxYtB2sad4ZT-I46_2vOwxP8g6C-Q1yQE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzcxLzkwLzg2/LzM2MF9GXzI3MTkw/ODY3N18zanV4Nm5l/c2V5Q2Fqcnhmb2V5/UTdZcjcwMVF5NlQ3/MC5qcGc",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 22,
+          "carbs_g": 28,
+          "calories": 380,
+          "protein_g": 18
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "af5cf29d-ca7b-4512-ac02-4eb5e1f782cb",
+        "category_id": "e3bd0a82-6984-4ac7-9235-00193c0e377d",
+        "name": "Fresh Lemon Juice",
+        "description": "Cold freshly squeezed lemon juice with a hint of mint.",
+        "price": "90.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtSSysVpsc0LVQ3VNow91sT9rWI7JUy2VyxIYOwyfVdTRfFx2Wiydf1wI&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 26,
+          "calories": 100,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "b00f0fb7-4a38-4d9a-ab4d-de53a2e4624c",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Daal Makhani with Rice",
+        "description": "Creamy black lentil curry made with butter and cream, served with rice.",
+        "price": "180.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtQ5xLZdj-XEOSWUAlSyu2YaZBzLSw3sCklhiuNnE_uQ&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 64,
+          "calories": 480,
+          "protein_g": 15
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "b079ac95-260c-414e-8a4c-9f32969c235f",
+        "category_id": "233b2dd2-a1fa-48a3-9d34-eea1e5d93efb",
+        "name": "Lays Chips",
+        "description": "Popular crispy potato chips available in Classic Salted, Masala, and other flavors.",
+        "price": "50.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-0CADirPa0cjjtk0GqkvqzU_Nf3_RMx8E0JDtU91s8e4pvHN1b_dHf2E&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "V",
+          "VE"
+        ],
+        "nutritional_info": {
+          "fat_g": 10,
+          "carbs_g": 15,
+          "calories": 160,
+          "protein_g": 2
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "b33aec7a-9ac6-4c08-86f0-20a859cfbaa9",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Palak Paneer with Rice",
+        "description": "Creamy spinach curry with paneer cubes, served over steamed rice.",
+        "price": "200.00",
+        "image_url": "https://production-media.gousto.co.uk/cms/mood-image/912_Palak-Paneer-with-Cardamom-Rice_004_0-1684999279717.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 56,
+          "calories": 460,
+          "protein_g": 16
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "b494d01e-7321-4a06-a1dc-7921a185d9bf",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Chicken Pulao",
+        "description": "Mildly spiced rice cooked with tender chicken pieces and whole spices.",
+        "price": "220.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTxOBajvx5b4XWes1MOzq9ys3vd5i9TOamiOBJL9_WP2mKq1tQcOH-fQ&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 70,
+          "calories": 560,
+          "protein_g": 26
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "b75385ec-10ac-42a4-a077-6ee438a331f2",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Loaded Fries",
+        "description": "Crispy fries topped with melted cheese, chicken chunks, and special sauces.",
+        "price": "280.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-aE3QY-25Tt5Yb92by6prPs1q5UNSNGixru81jD8SMp0F3zoYKcZYsdf1&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 42,
+          "carbs_g": 64,
+          "calories": 720,
+          "protein_g": 22
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "b84c40c5-b3c5-4bef-af87-6cf1a8599204",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Beef Nihari",
+        "description": "Slow-cooked spiced beef stew, rich and hearty, served with naan.",
+        "price": "260.00",
+        "image_url": "https://evakitchen.pk/wp-content/uploads/2017/10/nihari.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 30,
+          "carbs_g": 40,
+          "calories": 560,
+          "protein_g": 32
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "b947d2b4-d937-434b-ab58-730ed63837f6",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Zinger Burger Combo",
+        "description": "Crispy chicken burger served with fries and a cold drink.",
+        "price": "380.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVDX61QLpac113N0DrTvJk1f_KPtYmEq0_L7tgnyFBeA&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 42,
+          "carbs_g": 98,
+          "calories": 920,
+          "protein_g": 30
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "bac75d69-01c7-4a5d-876b-0ce46691b4d4",
+        "category_id": null,
+        "name": "Almond Chocolate Bar",
+        "description": "Milk chocolate bar loaded with roasted almonds.",
+        "price": "60.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLPnEgXm8Y6XwiVHSlMTdxUN7O7DVoQNfWF_DvL1gGIy2ennA7rvWehEE&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy",
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 14,
+          "carbs_g": 22,
+          "calories": 220,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "bb2d06dc-5554-4f9f-91cc-1c981823e859",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Boiled Egg",
+        "description": "Simple soft or hard boiled egg, a protein-packed breakfast choice.",
+        "price": "25.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIBPEouB7ySk98fbN7uhMakyf6XsOWar5bDVBB7mVjDAyN6ihfoKZ-GcTT&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 5,
+          "carbs_g": 1,
+          "calories": 78,
+          "protein_g": 6
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "c0af6e84-771c-4a11-bfdc-a7ffdd481106",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Cheesecake Slice",
+        "description": "Rich and creamy baked cheesecake slice with a biscuit base.",
+        "price": "150.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRztWNGRaonhOfb6x7MRLI3HWyf2SnLCJ7YQS6QZ1FUEwr1RRfE_GQVTto&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy",
+          "Egg"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 26,
+          "carbs_g": 32,
+          "calories": 380,
+          "protein_g": 6
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "ccf2546c-4c72-46f7-a02c-29eacf048448",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Chicken Karahi with Naan",
+        "description": "Restaurant-style chicken karahi served hot with fresh tandoori naan.",
+        "price": "340.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU6PY8OWWqBOLf5DFk58tROR4FUQLeXjR5qc71BHhjgsFV7Mvq-EUFy7F2&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 34,
+          "carbs_g": 38,
+          "calories": 620,
+          "protein_g": 40
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "ce3123cc-ce2f-444b-af92-a9629b38ea88",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Chapli Kebab with Naan",
+        "description": "Peshawari-style spiced minced beef patty, pan-fried and served with naan.",
+        "price": "230.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSypkaR17-HYd8nBTr_VjjntADmcfs5pdrqeLrOOkCVVlYce8Sbm5P_k_M&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 30,
+          "carbs_g": 38,
+          "calories": 520,
+          "protein_g": 26
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "d17a69e6-921a-4a20-9410-c1bbb27d9c9a",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Beef Pulao",
+        "description": "Aromatic rice cooked with tender beef pieces and whole spices.",
+        "price": "260.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQu0T20h63NbJWXkAHkDqYz7V0M9J7Uy8neKa22Bhct2Q&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 22,
+          "carbs_g": 68,
+          "calories": 590,
+          "protein_g": 30
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "d199fe34-bd08-4c09-8ea4-597a660aacbf",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Kashmiri Chai (Pink Tea)",
+        "description": "Aromatic pink tea brewed with spices, almonds, and cardamom.",
+        "price": "60.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT38GqgSEskxaTXyK1nRWGyKLguKAAYpGcGC7zgwrYAZPGmJS0fHDCBBI&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy",
+          "Nuts"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 8,
+          "carbs_g": 18,
+          "calories": 160,
+          "protein_g": 3
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "d63a8d63-0e65-4756-8e64-e2ffe25f9186",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Fried Fish with Chutney",
+        "description": "Crispy spiced fried fish served with tangy green chutney.",
+        "price": "280.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz0P7oRE_4hGnAddtIEaYQoTxBoxIyNKS8aO9-ezFTjw&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Fish",
+          "Gluten"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 24,
+          "carbs_g": 22,
+          "calories": 420,
+          "protein_g": 30
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "d6869785-668a-4ebf-8fed-60940e841ec8",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Spring Roll (2 pieces)",
+        "description": "Two golden fried vegetable spring rolls with sweet chili sauce.",
+        "price": "70.00",
+        "image_url": "https://www.cubesnjuliennes.com/wp-content/uploads/2021/01/Spring-Roll-Recipe.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Soy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 10,
+          "carbs_g": 28,
+          "calories": 220,
+          "protein_g": 4
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "db063468-063c-4d5e-a284-9053ca600a19",
+        "category_id": "2dcf58af-1065-4542-8085-f7774e594b57",
+        "name": "Grilled Chicken Steak Meal",
+        "description": "Grilled chicken steak with mashed potatoes and sautéed vegetables.",
+        "price": "290.00",
+        "image_url": "https://i.ytimg.com/vi/xR6rTrhiZVU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCt81MoZcQ4edseFXPwI3Ugia2xTQ",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 30,
+          "carbs_g": 38,
+          "calories": 620,
+          "protein_g": 40
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "dce9e966-9e4d-4e3b-86f3-c1f27275419a",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "BBQ Chicken Tikka",
+        "description": "Chargrilled chicken tikka served with mint chutney and fresh salad.",
+        "price": "400.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT56AlKha3Cmo3ukFpf64H9c0ObNCSiPMt-8jDxm639Q&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 6,
+          "calories": 340,
+          "protein_g": 38
+        },
+        "created_at": "2026-07-04T06:14:01.842Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "e0404706-6ff2-423c-b3e2-a2f24025ee14",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Mutton Biryani",
+        "description": "Fragrant basmati rice layered with tender mutton and traditional spices.",
+        "price": "280.00",
+        "image_url": "https://kitchendiariesbyzubda.com/wp-content/uploads/2024/10/IMG_0411-min-scaled.jpeg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 26,
+          "carbs_g": 76,
+          "calories": 660,
+          "protein_g": 32
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "e321fa9d-2445-4e08-8fab-bd0db09a6e12",
+        "category_id": "2dcf58af-1065-4542-8085-f7774e594b57",
+        "name": "Paneer Tikka Meal",
+        "description": "Marinated paneer tikka served with naan, chutney, and salad.",
+        "price": "210.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp55Wkmd0vuQdb9N1FhAccQAdaGeKMtBTwG3Ts7IGNhjdhmMNw_qBgEpM&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 30,
+          "carbs_g": 48,
+          "calories": 560,
+          "protein_g": 22
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "e5635fd4-5d6e-40c9-9baa-cb303765ae4d",
+        "category_id": "2dcf58af-1065-4542-8085-f7774e594b57",
+        "name": "Chicken Rice Bowl",
+        "description": "Grilled chicken served over seasoned rice with vegetables and sauce.",
+        "price": "240.00",
+        "image_url": "https://www.afarmgirlsdabbles.com/wp-content/uploads/2022/11/honey-garlic-chicken-rice-bowls_afarmgirlsdabbles_01s.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Soy"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 16,
+          "carbs_g": 62,
+          "calories": 560,
+          "protein_g": 34
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "ef33674f-40dd-4541-a124-54844637555d",
+        "category_id": "13102c24-0922-4049-9d62-4ed243cf2be0",
+        "name": "Chicken Burger",
+        "description": "Juicy chicken burger with sauce, lettuce, and onions, served with fries.",
+        "price": "250.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnz_G6Q3G0Nzbw0sLlIJ_dgg-OHLg6_2cZXdDkAWEVZA&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg",
+          "Sesame"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 34,
+          "carbs_g": 66,
+          "calories": 680,
+          "protein_g": 24
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "efc1bd1b-a9aa-4f79-b244-3baf56b7246d",
+        "category_id": "3f23a379-273b-40f3-bbc8-941d9ab3a4fb",
+        "name": "Chow Mein / Macaroni",
+        "description": "Indo-Chinese style stir-fried egg noodles or macaroni with vegetables and meat.",
+        "price": "200.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXnPN2n7f1Ne7LwkIhsIz80TEXJmr0HLx_LImGjBRbo61IS9Z0Sqd42S8d&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Egg",
+          "Soy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 18,
+          "carbs_g": 62,
+          "calories": 480,
+          "protein_g": 18
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "f19ab98f-01f3-47e9-a877-e6483692bb23",
+        "category_id": "2dcf58af-1065-4542-8085-f7774e594b57",
+        "name": "Beef Burger Meal",
+        "description": "Juicy beef burger with cheese, lettuce, tomato, fries, and a chilled soft drink.",
+        "price": "260.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuNHyZlEUaAFyNZ6DTuRtcex1tdOnyx5XLZliCKW58eg&s=10",
+        "is_available": true,
+        "is_daily_special": true,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy",
+          "Sesame"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 42,
+          "carbs_g": 78,
+          "calories": 820,
+          "protein_g": 32
+        },
+        "created_at": "2026-07-03T11:22:09.808Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "f2366439-1728-47c6-9d0c-105770b8585d",
+        "category_id": "e67d24ee-fa94-465f-a0ed-e0508bf2969b",
+        "name": "Chocolate Mousse",
+        "description": "Light and airy chocolate mousse topped with chocolate shavings.",
+        "price": "130.00",
+        "image_url": "https://www.allrecipes.com/thmb/2wgE9MHJZzfRAHhlqzUXmsf2zUw=/0x512/filters:no_upscale():max_bytes(150000):strip_icc()/IMG_8145_Chocolate-Mousse-for-Beginners-4x3-cropped-757ae43035ff48cc8bc9ccffbd6cf3b7.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Egg",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V"
+        ],
+        "nutritional_info": {
+          "fat_g": 19,
+          "carbs_g": 28,
+          "calories": 300,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "f570b2eb-654d-4286-86e0-3a69b97d46cc",
+        "category_id": "642e1597-05f4-4b6e-b047-99e8aa95dd3d",
+        "name": "Cold Coffee",
+        "description": "Chilled instant or espresso-style cold coffee with milk.",
+        "price": "110.00",
+        "image_url": "https://i.ytimg.com/vi/iRr7jADrwws/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAupWv0SIF6DOvVdHh5NMn2V87Hvg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 7,
+          "carbs_g": 26,
+          "calories": 190,
+          "protein_g": 5
+        },
+        "created_at": "2026-07-03T19:34:11.961Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "f9408c14-1ae2-4659-836a-d6b03c386669",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Cold Drink (Pepsi/7UP)",
+        "description": "Chilled soft drink bottle or can.",
+        "price": "90.00",
+        "image_url": "https://static.vecteezy.com/system/resources/thumbnails/071/978/326/small/refreshing-cold-colorful-soft-drinks-with-ice-and-citrus-photo.jpg",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [],
+        "dietary_tags": [
+          "VE",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 0,
+          "carbs_g": 39,
+          "calories": 150,
+          "protein_g": 0
+        },
+        "created_at": "2026-07-03T12:56:18.919Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "f95550ff-7613-477c-9fb2-82cb8f9b73a3",
+        "category_id": "971ba8d4-1ac3-4dad-b745-acb9212b6d47",
+        "name": "Lassi (Sweet/Salty)",
+        "description": "Refreshing sweet or salty yogurt drink served chilled.",
+        "price": "100.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUzYCgaDRy7SAVJiDsT7HAyZjj_h8JnDXQ06D5EMsCnPsdyCDf2gDfa2s&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "V",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 8,
+          "carbs_g": 30,
+          "calories": 220,
+          "protein_g": 7
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "faf08899-3cfa-4129-85c0-19083df4592e",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Butter Chicken with Naan",
+        "description": "Creamy tomato-based butter chicken served with fresh naan.",
+        "price": "380.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT39I_6oUraz9YoePjeuKA2fbRnZEepiw0Tu-okn_F9ypRQcTISayWiByQ&s=10",
+        "is_available": true,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Gluten",
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H"
+        ],
+        "nutritional_info": {
+          "fat_g": 34,
+          "carbs_g": 44,
+          "calories": 640,
+          "protein_g": 36
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      },
+      {
+        "id": "fcfb1735-54fb-4cc1-bf6a-6f09354bdae4",
+        "category_id": "ec472a39-0d9e-4cf6-ac29-2f596fcb89b6",
+        "name": "Beef Steak with Fries",
+        "description": "Grilled beef steak served with fries and pepper sauce.",
+        "price": "480.00",
+        "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvVYcJUKZm-DHybcmeEkwcyQ2a3hJufi-sthIettb-8MPQ2TAG1iUL7gM&s=10",
+        "is_available": false,
+        "is_daily_special": false,
+        "prep_time_minutes": 5,
+        "allergens": [
+          "Dairy"
+        ],
+        "dietary_tags": [
+          "H",
+          "GF"
+        ],
+        "nutritional_info": {
+          "fat_g": 40,
+          "carbs_g": 40,
+          "calories": 720,
+          "protein_g": 42
+        },
+        "created_at": "2026-07-05T03:45:38.810Z",
+        "modifiers": [],
+        "is_active": true
+      }
+    ],
+    "inventory": [
+      {
+        "id": "10f34905-7591-4eaf-81a2-bbeb9a86ece6",
+        "menu_item_id": null,
+        "ingredient_name": "Eggs",
+        "current_stock": "52.00",
+        "unit": "pcs",
+        "low_stock_threshold": "24.00",
+        "last_updated": "2026-07-03T04:16:11.774Z"
+      },
+      {
+        "id": "2e7822a0-6601-4592-a032-3174deee771d",
+        "menu_item_id": null,
+        "ingredient_name": "Cheese Slices",
+        "current_stock": "150.00",
+        "unit": "pcs",
+        "low_stock_threshold": "30.00",
+        "last_updated": "2026-06-17T17:36:54.211Z"
+      },
+      {
+        "id": "69f43918-fd71-40f3-853f-9d6927e68d71",
+        "menu_item_id": null,
+        "ingredient_name": "Beef Patties",
+        "current_stock": "80.00",
+        "unit": "pcs",
+        "low_stock_threshold": "15.00",
+        "last_updated": "2026-06-17T17:36:54.211Z"
+      },
+      {
+        "id": "728c0d82-ed18-4833-b094-8be485b6a5b6",
+        "menu_item_id": null,
+        "ingredient_name": "Potatoes",
+        "current_stock": "0.00",
+        "unit": "kg",
+        "low_stock_threshold": "25.00",
+        "last_updated": "2026-07-03T04:16:45.280Z"
+      },
+      {
+        "id": "772d2e05-439a-4cf5-a621-9d46ea459feb",
+        "menu_item_id": null,
+        "ingredient_name": "Coffee Beans",
+        "current_stock": "5.00",
+        "unit": "kg",
+        "low_stock_threshold": "10.00",
+        "last_updated": "2026-07-03T04:16:30.158Z"
+      },
+      {
+        "id": "7a027852-05d3-4b51-96ac-eef246f37251",
+        "menu_item_id": null,
+        "ingredient_name": "Buns",
+        "current_stock": "100.00",
+        "unit": "pcs",
+        "low_stock_threshold": "20.00",
+        "last_updated": "2026-06-17T17:36:54.211Z"
+      },
+      {
+        "id": "cdf1f7a1-347e-4a19-834c-431f500a5549",
+        "menu_item_id": null,
+        "ingredient_name": "Milk",
+        "current_stock": "15.00",
+        "unit": "L",
+        "low_stock_threshold": "5.00",
+        "last_updated": "2026-06-17T17:36:54.211Z"
+      }
+    ],
+    "shifts": [
+      {
+        "id": "e4621d00-e36d-4ecc-8a9d-1e5e91d69331",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-03T09:53:34.543Z",
+        "closed_at": "2026-07-04T07:56:41.005Z",
+        "opening_cash": "0.00",
+        "closing_cash": "5000.00",
+        "total_sales": "9159.70",
+        "status": "closed"
+      },
+      {
+        "id": "e910f456-0b59-4715-85c9-0fb469b1f5ed",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "opened_at": "2026-07-04T06:16:28.147Z",
+        "closed_at": "2026-07-04T09:38:55.292Z",
+        "opening_cash": "1000.00",
+        "closing_cash": "1000.00",
+        "total_sales": "0.00",
+        "status": "closed"
+      },
+      {
+        "id": "92b64137-e0fc-49db-bf91-a65d99255969",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-04T07:59:41.442Z",
+        "closed_at": "2026-07-04T08:38:48.832Z",
+        "opening_cash": "2500.00",
+        "closing_cash": "3500.00",
+        "total_sales": "463.05",
+        "status": "closed"
+      },
+      {
+        "id": "edd96060-30f7-4e73-9cd0-5a13db7ea1e2",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-04T08:39:04.667Z",
+        "closed_at": "2026-07-04T09:25:06.925Z",
+        "opening_cash": "1500.00",
+        "closing_cash": "1500.00",
+        "total_sales": "0.00",
+        "status": "closed"
+      },
+      {
+        "id": "d516be94-b4c1-40f4-b8bf-4a0cbb6b56b7",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-04T09:25:19.942Z",
+        "closed_at": "2026-07-04T09:26:12.233Z",
+        "opening_cash": "1500.00",
+        "closing_cash": "1500.00",
+        "total_sales": "0.00",
+        "status": "closed"
+      },
+      {
+        "id": "55d4519c-782b-4e1c-80e1-a3405683bc75",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-04T09:37:53.378Z",
+        "closed_at": "2026-07-04T09:38:25.684Z",
+        "opening_cash": "2000.00",
+        "closing_cash": "2000.00",
+        "total_sales": "0.00",
+        "status": "closed"
+      },
+      {
+        "id": "09377f5a-9200-4e59-9e74-6574eaffa667",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-04T09:38:42.059Z",
+        "closed_at": "2026-07-04T09:38:46.790Z",
+        "opening_cash": "500.00",
+        "closing_cash": "500.00",
+        "total_sales": "0.00",
+        "status": "closed"
+      },
+      {
+        "id": "1683e9f7-870b-45c2-a163-8a24368478ab",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "opened_at": "2026-07-04T09:39:01.143Z",
+        "closed_at": "2026-07-04T09:44:36.194Z",
+        "opening_cash": "1200.00",
+        "closing_cash": "1200.00",
+        "total_sales": "0.00",
+        "status": "closed"
+      },
+      {
+        "id": "2dda5732-dc89-4501-b10f-a1f2b09b932e",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-04T09:49:20.607Z",
+        "closed_at": "2026-07-04T09:49:27.588Z",
+        "opening_cash": "1800.00",
+        "closing_cash": "1800.00",
+        "total_sales": "0.00",
+        "status": "closed"
+      },
+      {
+        "id": "d5870d34-5cdb-49f1-aa50-a600f1d8981a",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-04T09:50:28.894Z",
+        "closed_at": "2026-07-04T09:51:09.468Z",
+        "opening_cash": "500.00",
+        "closing_cash": "500.00",
+        "total_sales": "0.00",
+        "status": "closed"
+      },
+      {
+        "id": "b5ab0fc8-aaca-4ae1-9ee7-e4049e98579d",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-04T10:04:35.389Z",
+        "closed_at": "2026-07-05T09:21:06.586Z",
+        "opening_cash": "500.00",
+        "closing_cash": "3940.00",
+        "total_sales": "8645.71",
+        "status": "closed"
+      },
+      {
+        "id": "32b7c23f-a85b-4334-b6bf-61ec003e3603",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "opened_at": "2026-07-04T10:31:53.677Z",
+        "closed_at": "2026-07-05T09:35:03.801Z",
+        "opening_cash": "1500.00",
+        "closing_cash": "1500.00",
+        "total_sales": "108.68",
+        "status": "closed"
+      },
+      {
+        "id": "805811cc-91d2-42b7-8e08-2b572a3c9d45",
+        "cashier_id": "7ad92f6c-32a7-4f8a-85cf-140cd63aaa8f",
+        "opened_at": "2026-07-05T09:47:46.019Z",
+        "closed_at": "2026-07-05T16:05:44.525Z",
+        "opening_cash": "1000.00",
+        "closing_cash": "1640.00",
+        "total_sales": "5110.57",
+        "status": "closed"
+      },
+      {
+        "id": "26b5c8c3-505d-46c3-80cd-eec5ce152dd6",
+        "cashier_id": "b1e09fd6-818a-4cae-a279-2ef61774904c",
+        "opened_at": "2026-07-06T19:22:16.466Z",
+        "closed_at": null,
+        "opening_cash": "500.00",
+        "closing_cash": null,
+        "total_sales": "0.00",
+        "status": "open"
+      }
+    ]
+  }
+}

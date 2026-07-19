@@ -1,0 +1,43 @@
+#!/usr/bin/env bash
+
+# 🚀 QUICK START: Replace Placeholder Images with Real Pexels Photos
+# 
+# This script shows all the commands you need to run in order
+# (Don't actually run this file - just copy the commands manually)
+
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "📷 PEXELS IMAGE SETUP - QUICK REFERENCE"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "STEP 1: Get free Pexels API key"
+echo "  → Visit: https://www.pexels.com/api/"
+echo "  → Sign up and create an API app"
+echo "  → Copy your API key"
+echo ""
+echo "STEP 2: Add API key to backend/.env"
+echo "  → Open: backend/.env"
+echo "  → Add: PEXELS_API_KEY=your-key-here"
+echo ""
+echo "STEP 3: Fetch images from Pexels"
+echo "  $ cd backend"
+echo "  $ npm run fetch-images"
+echo "  ⏱️  Takes ~20-30 seconds (rate limited)"
+echo "  📋 Copy the full imageMap object from the output"
+echo ""
+echo "STEP 4: Paste imageMap into merge script"
+echo "  → Open: backend/src/config/merge-images.js"
+echo "  → Find the empty imageMap = { ... } at line ~19"
+echo "  → Paste the imageMap you copied from Step 3"
+echo ""
+echo "STEP 5: Merge images into seed.js"
+echo "  $ npm run merge-images"
+echo "  ✅ This replaces foodImage() calls with real Pexels URLs"
+echo ""
+echo "STEP 6: Seed your database"
+echo "  $ npm run seed"
+echo "  ✅ Done! Your database now has real food images"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo ""
+echo "📚 Full guide: backend/src/config/IMAGE-SETUP.md"
+echo ""

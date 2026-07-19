@@ -1,0 +1,39 @@
+{
+  "name": "quickbyte-cafe-backend",
+  "version": "1.0.0",
+  "description": "QuickByte Café POS - Backend API",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "migrate": "node src/config/migrate.js",
+    "migrate:fastfood": "node src/config/migrate-fastfood.js",
+    "fetch-images": "node src/config/fetch-images.js",
+    "merge-images": "node src/config/merge-images.js",
+    "seed": "node src/config/migrate.js && node src/config/seed.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --config jest.config.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.0.0",
+    "joi": "^18.2.3",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^9.0.3",
+    "pg": "^8.13.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "@jest/globals": "^30.4.1",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}

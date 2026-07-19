@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply font-sans bg-cream text-forest antialiased;
+  }
+}
+
+@layer components {
+  .touch-target {
+    @apply min-h-touch min-w-touch;
+  }
+
+  /* Menu item cards hover */
+  .menu-card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .menu-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(27, 67, 50, 0.15);
+  }
+
+  /* Button press effect */
+  .btn-press:active {
+    transform: scale(0.97);
+  }
+
+  .btn-hover-lift {
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  }
+  .btn-hover-lift:hover {
+    transform: translateY(-1px);
+  }
+
+  /* Palette helper for alert/warning states (brand orange-red) */
+  .alert-orange {
+    --alert-orange-hex: #EA580C;
+  }
+
+
+  /* Smooth all transitions */
+  * {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .auth-form-scroll {
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    scrollbar-color: #1B4332 #F5EDE0;
+  }
+
+  .auth-form-scroll::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .auth-form-scroll::-webkit-scrollbar-track {
+    background: #F5EDE0;
+    border-radius: 4px;
+  }
+
+  .auth-form-scroll::-webkit-scrollbar-thumb {
+    background: #1B4332;
+    border-radius: 4px;
+  }
+
+  .auth-form-scroll::-webkit-scrollbar-thumb:hover {
+    background: #2D6A4F;
+  }
+}
+
+@media print {
+  /* ── Strategy A: body.printing-receipt class (used by handlePrintReceipt) ── */
+  body.printing-receipt > *:not(#print-receipt-root) {
+    display: none !important;
+  }
+  body.printing-receipt #print-receipt-root {
+    display: block !important;
+    position: fixed;
+    inset: 0;
+    width: 80mm;
+    margin: 0 auto;
+    background: #fff;
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
+    color: #111;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+
+  /* ── Strategy B: .receipt-print class fallback ── */
+  body:not(.printing-receipt) * {
+    visibility: hidden;
+  }
+  body:not(.printing-receipt) .receipt-print,
+  body:not(.printing-receipt) .receipt-print * {
+    visibility: visible;
+  }
+  body:not(.printing-receipt) .receipt-print {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80mm;
+  }
+}
