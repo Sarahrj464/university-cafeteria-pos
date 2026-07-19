@@ -4,16 +4,6 @@ A full-stack, production-grade **Point of Sale system** for cafés. Supports fou
 
 ---
 
-## 📸 Screenshots
-
-> Deploy the app and replace these with actual screenshots.
-
-| Admin Dashboard | POS Cashier | Kitchen Display | Student Portal |
-|---|---|---|---|
-| Analytics & charts | Menu grid + cart | Real-time orders | Wallet & history |
-
----
-
 ## ✨ Features
 
 ### 🔐 Authentication & Authorization
@@ -93,8 +83,8 @@ A full-stack, production-grade **Point of Sale system** for cafés. Supports fou
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/uni-cafeteria-pos.git
-cd uni-cafeteria-pos
+git clone https://github.com/Sarahrj464/university-cafeteria-pos
+cd university-cafeteria-pos
 ```
 
 ### 2. Backend setup
@@ -126,10 +116,10 @@ Navigate to **http://localhost:5173** and log in with demo credentials below.
 
 | Role | Email | Password |
 |---|---|---|
-| **Admin** | admin@cafeteria.edu | Admin@123! |
-| **Cashier** | cashier@cafeteria.edu | Cashier@123! |
-| **Kitchen** | kitchen@cafeteria.edu | Kitchen@123! |
-| **Student** | student@uni.edu.pk | Student@123! |
+| **Admin** | admin@university.edu | Admin@1234 |
+| **Cashier** | cashier@university.edu | Cashier@1234 |
+| **Kitchen** | kitchen@university.edu | Kitchen@1234 |
+| **Student** | student1@university.edu | Student@1234 |
 
 > Student ID for meal plan lookup: `STU-2024-001`
 
@@ -297,8 +287,7 @@ uni-cafeteria-pos/
 ## 🔗 Links
 
 - 🌐 **Live Demo:** _Coming soon after deployment_
-- 📦 **GitHub:** https://github.com/your-username/uni-cafeteria-pos
-- 🎫 **Issues:** https://github.com/your-username/uni-cafeteria-pos/issues
+- 📦 **GitHub:** https://github.com/Sarahrj464/university-cafeteria-pos
 
 ---
 
