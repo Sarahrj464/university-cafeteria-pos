@@ -554,24 +554,22 @@ export default function Settings() {
         </div>
       </Modal>
 
-      {/* FIX: Save button is now sticky at the bottom of the viewport
-          instead of just sitting at the natural end of page flow. This
-          guarantees it's always visible/clickable even if a parent
-          layout wrapper has overflow-hidden + a fixed height that would
-          otherwise clip the bottom of this page's content. */}
-      <div className="fixed bottom-0 left-0 right-0 md:sticky md:bottom-4 z-40 bg-cream/95 backdrop-blur-sm border-t border-forest/10 md:border-0 p-4 md:p-0 md:bg-transparent">
-        <div className="max-w-2xl mx-auto md:mx-0">
-          <button
-            onClick={handleSave}
-            className="w-full bg-orange text-white font-bold py-3 rounded-lg hover:bg-orange/90 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg transition-colors"
-            disabled={isSaving || isLoading}
-            type="button"
-          >
-            <Save size={20} />
-            {isSaving ? 'Saving Settings…' : 'Save All Settings'}
-          </button>
-        </div>
-      </div>
+      {/* FIX: was `bg-orange` — a custom color name that only works if
+          explicitly defined in tailwind.config.js. It wasn't rendering
+          (transparent background, invisible button), unlike the other
+          buttons on this page which all use standard numbered Tailwind
+          shades (amber-600, red-600, emerald-600). Switched to the
+          built-in orange-600/700 shades so it's guaranteed to render
+          regardless of the project's Tailwind config. */}
+      <button
+        onClick={handleSave}
+        className="w-full bg-orange-600 text-white font-bold py-3 rounded-lg hover:bg-orange-700 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg transition-colors"
+        disabled={isSaving || isLoading}
+        type="button"
+      >
+        <Save size={20} />
+        {isSaving ? 'Saving Settings…' : 'Save All Settings'}
+      </button>
     </div>
   );
 }
