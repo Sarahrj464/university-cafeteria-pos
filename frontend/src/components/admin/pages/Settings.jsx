@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from 'react';
 import { Save, Bell, Lock, Globe, Database, X, RotateCcw } from 'lucide-react';
 import { useToast } from '../../../hooks/useToast';
 import Modal from '../../ui/Modal';
+import api from '../../../services/api';
 import { getAdminSettings, updateAdminSettings, createBackup, listBackups, restoreBackup } from '../../../services/admin';
 import { useSettings } from '../../../contexts/SettingsContext';
 
@@ -139,6 +140,9 @@ export default function Settings() {
     }
 
     try {
+      // FIX: `api` was never imported in the original file — this call
+      // would have thrown "ReferenceError: api is not defined" as soon
+      // as someone tried to submit this form.
       await api.put('/admin/change-password', {
         currentPassword: passwordForm.currentPassword,
         newPassword: passwordForm.newPassword,
@@ -223,7 +227,12 @@ export default function Settings() {
   };
 
   return (
-    <div className="space-y-6 max-w-2xl">
+    // NOTE: added pb-24 so the sticky Save bar never overlaps the last
+    // card's content, and removed the old max-w-2xl wrapper's implicit
+    // reliance on a taller-than-viewport parent — this page can now be
+    // safely dropped into any layout without its Save button getting
+    // clipped by a parent `overflow-hidden` container.
+    <div className="space-y-6 max-w-2xl pb-24">
       <h1 className="text-2xl font-bold text-forest">Settings</h1>
 
       {saved && (
@@ -358,15 +367,19 @@ export default function Settings() {
           </div>
 
           <div className="flex gap-2">
+            {/* Manual Backup — changed from blue to teal/emerald so it
+                reads as a distinct, safe "create" action, separate from
+                the amber "Restore" (caution) and red "password" (danger)
+                buttons below. */}
             <button
               onClick={handleManualBackup}
-              className="flex-1 bg-blue-600 text-white font-bold py-2 rounded-lg hover:bg-blue-700"
+              className="flex-1 bg-emerald-600 text-white font-bold py-2 rounded-lg hover:bg-emerald-700 transition-colors"
             >
               Manual Backup
             </button>
 
             <button
-              className="flex-1 bg-amber-600 text-white font-bold py-2 rounded-lg hover:bg-amber-700 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 bg-amber-600 text-white font-bold py-2 rounded-lg hover:bg-amber-700 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               type="button"
               onClick={() => setIsRestoreModalOpen(true)}
               disabled={isRestoring}
@@ -386,7 +399,7 @@ export default function Settings() {
 
         <button
           onClick={handleOpenPasswordModal}
-          className="w-full bg-red-600 text-white font-bold py-2 rounded-lg hover:bg-red-700"
+          className="w-full bg-red-600 text-white font-bold py-2 rounded-lg hover:bg-red-700 transition-colors"
         >
           Change Admin Password
         </button>
@@ -541,16 +554,24 @@ export default function Settings() {
         </div>
       </Modal>
 
-      <button
-        onClick={handleSave}
-        className="w-full bg-orange text-white font-bold py-3 rounded-lg hover:bg-orange/90 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
-        disabled={isSaving || isLoading}
-        type="button"
-      >
-        <Save size={20} />
-        {isSaving ? 'Saving Settings…' : 'Save All Settings'}
-      </button>
+      {/* FIX: Save button is now sticky at the bottom of the viewport
+          instead of just sitting at the natural end of page flow. This
+          guarantees it's always visible/clickable even if a parent
+          layout wrapper has overflow-hidden + a fixed height that would
+          otherwise clip the bottom of this page's content. */}
+      <div className="fixed bottom-0 left-0 right-0 md:sticky md:bottom-4 z-40 bg-cream/95 backdrop-blur-sm border-t border-forest/10 md:border-0 p-4 md:p-0 md:bg-transparent">
+        <div className="max-w-2xl mx-auto md:mx-0">
+          <button
+            onClick={handleSave}
+            className="w-full bg-orange text-white font-bold py-3 rounded-lg hover:bg-orange/90 flex items-center justify-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg transition-colors"
+            disabled={isSaving || isLoading}
+            type="button"
+          >
+            <Save size={20} />
+            {isSaving ? 'Saving Settings…' : 'Save All Settings'}
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
-
